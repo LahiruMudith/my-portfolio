@@ -183,11 +183,21 @@
             <p>Whatsapp: <a href="tel:+94761298256">0761298256</a></p>
 
             <div>
-                <img src="assets/images/fiverr.png" alt="fiverr icon" width="50px">
-                <img src="assets/images/github.png" alt="git hub icon" width="50px">
-                <img src="assets/images/Facebook-Circled.png" alt="fb icon" width="50px">
-                <img src="assets/images/LinkedIn.png" alt="linkedin icon" width="50px">
-                <img src="assets/images/Instagram.png" alt="instagram icon" width="50px">
+                <button>
+                    <img src="assets/images/fiverr.png" alt="fiverr icon" width="50px">
+                </button>
+                <button>
+                    <img src="assets/images/github.png" alt="git hub icon" width="50px">
+                </button>
+                <button>
+                    <img src="assets/images/Facebook-Circled.png" alt="fb icon" width="50px">
+                </button>
+                <button>
+                    <img src="assets/images/LinkedIn.png" alt="linkedin icon" width="50px">
+                </button>
+                <button>
+                    <img src="assets/images/Instagram.png" alt="instagram icon" width="50px">
+                </button>
             </div>
         </div>
     </section>

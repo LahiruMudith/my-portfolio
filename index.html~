@@ -14,12 +14,12 @@
             <nav>
                 <ul>
                     <li><a href="#home-page"><button type="button">Home</button></a></li>
-                    <li><a href="#about-me-page"><button type="button">About Me</button></a></li>
-                    <li><a href="#skill-page"><button type="button">Skills</button></a></li>
-                    <li><a href="#project-page"><button type="button">Projects</button></a></li>
-                    <li><a href="#project-page"><button type="button">Assignment</button></a></li>
-                    <li><a href="#gallery-page"><button type="button">Gallery</button></a></li>
-                    <li><a href="#contact-me-page"><button type="button">Contact Me</button></a></li>
+                    <li><a href="#"><button type="button">About Me</button></a></li>
+                    <li><a><button type="button">Skills</button></a></li>
+                    <li><a><button type="button">Projects</button></a></li>
+                    <li><a><button type="button">Assignment</button></a></li>
+                    <li><a><button type="button">Gallery</button></a></li>
+                    <li><a><button type="button">Contact Me</button></a></li>
                 </ul>
             </nav>
         </header>
@@ -64,7 +64,7 @@
     </section>
 
 <!--Education & Work Experience page-->
-    <section id="about-me-page">
+    <section id="education-page">
         <!--main buttons-->
         <div>
             <button>Education</button>

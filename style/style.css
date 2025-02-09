@@ -1,0 +1,83 @@
+body{
+    background: black;
+    color: white;
+}
+#navbar>ul{
+    display: flex;
+    list-style-type: none;
+}
+#navbar>ul>li{
+    margin: 2px;
+}
+#navbar>ul>li>a>button{
+    font-size: 12px;
+    padding: 0.2em 1em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+#navbar>ul>li>a>button:before {
+    content: "";
+    background: linear-gradient(
+            45deg,
+            #eaf6f2,
+            #e0f1ec,
+            #bfe2d7,
+            #31a07d,
+            #2c9071,
+            #278064,
+            #25785e,
+            #1d604b,
+            #164838
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 1s ease-in;
+    border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#navbar>ul>li>a>button:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+#navbar>ul>li>a>button:hover {
+    background-color: #31a07d;
+    box-shadow: #31a07d 0 -6px 8px inset;
+    transform: scale(0.8);
+}
+

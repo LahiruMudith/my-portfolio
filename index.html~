@@ -13,7 +13,7 @@
         <header>
             <img src="assets/images/black-logo.png" alt="logo" width="50px" >
             <!--nav bar-->
-            <nav id="navbar">
+            <nav>
                 <ul>
                     <li><a href="#home-page"><button type="button">Home</button></a></li>
                     <li><a href="#about-me-page"><button type="button">About Me</button></a></li>

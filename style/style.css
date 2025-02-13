@@ -127,3 +127,36 @@ body{
     top: -110px;
     left: 50px;
 }
+#home-section-btns{
+    display: flex;
+    position: relative;
+    top: -80px;
+    left: 120px;
+}
+
+#home-section-btns>button{
+    margin: 0 20px 0 0;
+}
+
+#hire-me-btn{
+    width: 170px;
+    background: transparent;
+    color: #FFFFFF;
+    border: 3px solid #25785E;
+    border-radius: 15px;
+    font-family: 'poppins', Serif;
+    font-weight: lighter;
+}
+
+#download-cv-btn{
+    width: 170px;
+    height: 40px;
+    background: #25785E;
+    color: #FFFFFF;
+    border: 3px solid #25785E;
+    border-radius: 10px;
+    font-family: 'poppins', Serif;
+    font-weight: bold;
+}
+
+

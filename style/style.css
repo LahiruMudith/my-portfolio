@@ -4,6 +4,7 @@ body{
 }
 #header{
     display: flex;
+    border-bottom: 2px solid #52565A;
 }
 #navbar{
     position: fixed;
@@ -15,7 +16,7 @@ body{
     list-style-type: none;
 }
 #navbar>ul>li{
-    margin: 2px;
+    margin: 0.2em;
 }
 #navbar>ul>li>a>button{
     font-size: 12px;

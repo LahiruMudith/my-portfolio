@@ -11,24 +11,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
+<!--page header-->
+<header id="header">
+    <img src="assets/images/black-logo.png" alt="logo" width="50px" >
+    <!--nav bar-->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home-page"><button type="button">Home</button></a></li>
+            <li><a href="#about-me-page"><button type="button">About Me</button></a></li>
+            <li><a href="#skill-page"><button type="button">Skills</button></a></li>
+            <li><a href="#project-page"><button type="button">Projects</button></a></li>
+            <li><a href="#project-page"><button type="button">Assignment</button></a></li>
+            <li><a href="#gallery-page"><button type="button">Gallery</button></a></li>
+            <li><a href="#contact-me-page"><button type="button">Contact Me</button></a></li>
+        </ul>
+    </nav>
+</header>
 <!--home page-->
     <section id="home-page">
-    <!--page header-->
-        <header>
-            <img src="assets/images/black-logo.png" alt="logo" width="50px" >
-            <!--nav bar-->
-            <nav id="navbar">
-                <ul>
-                    <li><a href="#home-page"><button type="button">Home</button></a></li>
-                    <li><a href="#about-me-page"><button type="button">About Me</button></a></li>
-                    <li><a href="#skill-page"><button type="button">Skills</button></a></li>
-                    <li><a href="#project-page"><button type="button">Projects</button></a></li>
-                    <li><a href="#project-page"><button type="button">Assignment</button></a></li>
-                    <li><a href="#gallery-page"><button type="button">Gallery</button></a></li>
-                    <li><a href="#contact-me-page"><button type="button">Contact Me</button></a></li>
-                </ul>
-            </nav>
-        </header>
         <!--page content-->
 
         <!--left side-->

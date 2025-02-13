@@ -169,7 +169,11 @@ button:hover{
     /*display: flex;*/
 }
 
-#home-section-icons>button{
+#home-section-icons>a{
+    text-decoration: none;
+}
+
+#home-section-icons>a>button{
     background: transparent;
     border: none;
 }

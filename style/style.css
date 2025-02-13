@@ -96,3 +96,34 @@ body{
     right: 0px;
 }
 
+#left-side{
+    margin-left: 50px;
+}
+
+#left-side>h1{
+    font-family: 'Abril Fatface', Serif;
+    font-size: 86px;
+    font-weight: lighter;
+    color: #B4B6B7;
+    position: relative;
+}
+
+#welcome-text{
+    top: 20px;
+}
+
+#other-text{
+    top: -80px;
+    left: 125px;
+}
+
+#intro-des{
+    font-family: 'Nunit', Serif;
+    font-size: 20px;
+    font-weight: normal;
+    width: 600px;
+
+    position: relative;
+    top: -110px;
+    left: 50px;
+}

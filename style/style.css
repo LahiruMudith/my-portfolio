@@ -2,6 +2,14 @@ body{
     background: black;
     color: white;
 }
+#header{
+    display: flex;
+}
+#navbar{
+    position: fixed;
+    right: 2em;
+    float: right;
+}
 #navbar>ul{
     display: flex;
     list-style-type: none;
@@ -79,5 +87,16 @@ body{
     background-color: #31a07d;
     box-shadow: #31a07d 0 -6px 8px inset;
     transform: scale(0.8);
+}
+
+.homepage-text{
+    font-family: 'Abril Fatface', Serif;
+    font-size: 86px;
+    font-weight: lighter;
+    color: #B4B6B7;
+}
+
+#intro-des{
+    font-famil: 'Nunit', Serif;
 }
 

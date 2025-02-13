@@ -5,6 +5,10 @@
     <title>Lahiru Mudith</title>
     <link rel="stylesheet" href="assets/lib/normalize.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
 <!--home page-->
@@ -13,7 +17,7 @@
         <header>
             <img src="assets/images/black-logo.png" alt="logo" width="50px" >
             <!--nav bar-->
-            <nav>
+            <nav id="navbar">
                 <ul>
                     <li><a href="#home-page"><button type="button">Home</button></a></li>
                     <li><a href="#about-me-page"><button type="button">About Me</button></a></li>
@@ -30,9 +34,9 @@
         <!--left side-->
         <div>
             <img src="assets/images/Customer-Insight.png" alt="pic">
-            <h1>Welcome</h1>
-            <h1>Im Lahiru Mudith</h1>
-            <p>Hello im Lahiru Mudith.Student in IJSE.I craft tailored solutions for your unique needs.Let's collaborate to bring your web development vision to life!</p>
+            <h1 class="homepage-text">Welcome</h1>
+            <h1 class="homepage-text">Im Lahiru Mudith</h1>
+            <p id="intro-des">Hello im Lahiru Mudith.Student in IJSE.I craft tailored solutions for your unique needs.Let's collaborate to bring your web development vision to life!</p>
             <img src="assets/images/Helping-Hand.png" alt="pic">
             <button type="button">Hire Me</button>
             <button type="button">Download CV</button>
@@ -72,7 +76,6 @@
             <button type="button">Education</button>
             <button type="button">Work Experience</button>
         </div>
-
         <!--Education Section-->
         <div>
             <!--cards-->

@@ -90,14 +90,9 @@ body{
     transform: scale(0.8);
 }
 
-.homepage-text{
-    font-family: 'Abril Fatface', Serif;
-    font-size: 86px;
-    font-weight: lighter;
-    color: #B4B6B7;
-}
-
-#intro-des{
-    font-famil: 'Nunit', Serif;
+#picture{
+    position: absolute;
+    top: -80px;
+    right: 0px;
 }
 

@@ -2,6 +2,9 @@ body{
     background: black;
     color: white;
 }
+button:hover{
+    cursor: pointer;
+}
 #header{
     display: flex;
     border-bottom: 2px solid #52565A;
@@ -10,6 +13,7 @@ body{
     position: fixed;
     right: 2em;
     float: right;
+    z-index: 2;
 }
 #navbar>ul{
     display: flex;
@@ -131,17 +135,17 @@ body{
     display: flex;
     position: relative;
     top: -80px;
-    left: 120px;
+    left: 130px;
 }
 
 #home-section-btns>button{
     margin: 0 20px 0 0;
+    color: #FFFFFF;
 }
 
 #hire-me-btn{
     width: 170px;
     background: transparent;
-    color: #FFFFFF;
     border: 3px solid #25785E;
     border-radius: 15px;
     font-family: 'poppins', Serif;
@@ -152,11 +156,20 @@ body{
     width: 170px;
     height: 40px;
     background: #25785E;
-    color: #FFFFFF;
     border: 3px solid #25785E;
     border-radius: 10px;
     font-family: 'poppins', Serif;
     font-weight: bold;
 }
 
+#home-section-icons{
+    position: relative;
+    top: -130px;
+    left: 520px;
+    /*display: flex;*/
+}
 
+#home-section-icons>button{
+    background: transparent;
+    border: none;
+}

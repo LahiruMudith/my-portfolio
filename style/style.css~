@@ -136,7 +136,7 @@ button:hover{
     font-family: 'Abril Fatface', Serif;
     font-size: 86px;
     font-weight: lighter;
-    color: white;
+    color: #e7e7e8;
     position: relative;
 }
 

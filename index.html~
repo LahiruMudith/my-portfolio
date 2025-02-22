@@ -61,24 +61,24 @@
 
         <!--running bar-->
         <div id="running-bar">
-            <ul>
-                <li>
-                    <img src="assets/images/Star.png" alt="star" width="20px">
-                    Quick Response
-                </li>
-                <li>
-                    <img src="assets/images/Star.png" alt="star" width="20px">
-                    100% Satisfaction
-                </li>
-                <li>
-                    <img src="assets/images/Star.png" alt="star" width="20px">
-                    Friendly
-                </li>
-                <li>
-                    <img src="assets/images/Star.png" alt="star" width="20px">
-                    Life Time Support
-                </li>
-            </ul>
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <img src="assets/images/Star.png" alt="star" width="20px">-->
+<!--                    Quick Response-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <img src="assets/images/Star.png" alt="star" width="20px">-->
+<!--                    100% Satisfaction-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <img src="assets/images/Star.png" alt="star" width="20px">-->
+<!--                    Friendly-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <img src="assets/images/Star.png" alt="star" width="20px">-->
+<!--                    Life Time Support-->
+<!--                </li>-->
+<!--            </ul>-->
         </div>
     </section>
 

@@ -1,6 +1,8 @@
 body{
     background: black;
     color: white;
+    margin: 0;
+    /*padding: 0;*/
 }
 button:hover{
     cursor: pointer;
@@ -160,6 +162,10 @@ button:hover{
     top: -110px;
     left: 50px;
 }
+/*#home-page{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
 #home-section-btns{
     width: 400px;
     display: flex;
@@ -215,19 +221,21 @@ button:hover{
     height: 12vh;
     position: relative;
     top: -40px;
+    left: 0px;
 }
 
 #running-bar>ul{
     display: flex;
     list-style-type: none;
-    width: 1000px;
-    margin: 0 auto;
+    width: 100vw;
+    margin: auto;
     padding: 0;
     justify-content: space-around;
 }
 
 #running-bar>ul>li{
     font-size: 24px;
+    width: 20vw;
     font-family: "poppins", Serif;
     font-weight: normal;
 }

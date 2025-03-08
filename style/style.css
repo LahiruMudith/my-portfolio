@@ -2,6 +2,7 @@ body{
     background: black;
     color: white;
     margin: 0;
+    overflow-x: hidden;
     /*padding: 0;*/
 }
 button:hover{
@@ -9,6 +10,11 @@ button:hover{
 }
 #header{
     display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    z-index: 2;
     border-bottom: 2px solid #52565A;
 }
 #navbar{
@@ -40,68 +46,6 @@ button:hover{
     -webkit-user-select: none;
     touch-action: manipulation;
 }
-/*#navbar>ul>li>a>button:before {*/
-/*    content: "";*/
-/*    background: linear-gradient(*/
-/*            45deg,*/
-/*            #eaf6f2,*/
-/*            #e0f1ec,*/
-/*            #bfe2d7,*/
-/*            #31a07d,*/
-/*            #2c9071,*/
-/*            #278064,*/
-/*            #25785e,*/
-/*            #1d604b,*/
-/*            #164838*/
-/*    );*/
-/*    position: absolute;*/
-/*    top: -2px;*/
-/*    left: -2px;*/
-/*    background-size: 400%;*/
-/*    z-index: -1;*/
-/*    filter: blur(5px);*/
-/*    -webkit-filter: blur(5px);*/
-/*    width: calc(100% + 4px);*/
-/*    height: calc(100% + 4px);*/
-/*    animation: glowing-button-85 60s linear infinite;*/
-/*    transition: opacity 1s ease-in;*/
-/*    border-radius: 10px;*/
-/*}*/
-
-/*@keyframes glowing-button-85 {*/
-/*    0% {*/
-/*        background-position: 0 0;*/
-/*    }*/
-/*    50% {*/
-/*        background-position: 400% 0;*/
-/*    }*/
-/*    100% {*/
-/*        background-position: 0 0;*/
-/*    }*/
-/*}*/
-
-/*#navbar>ul>li>a>button:after {*/
-/*    z-index: -1;*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    background: #222;*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*    border-radius: 10px;*/
-/*}*/
-/*#navbar>ul>li>a>button:hover {*/
-/*    background-color: #31a07d;*/
-/*    box-shadow: #31a07d 0 -6px 8px inset;*/
-/*    transform: scale(0.8);*/
-/*}*/
-
-/*#navbar>ul>li>a>button:hover {*/
-/*    color: #31a07d;*/
-/*    transform: scale(0.9);*/
-/*    text-decoration: underline;*/
-/*}*/
 
 #navbar>ul>li>a>button:after {
     content: ''; /* Add content after the element */
@@ -128,10 +72,11 @@ button:hover{
     position: absolute;
     top: -80px;
     right: 0px;
+    width: 500px;
 }
 
 #left-side{
-    margin-left: 50px;
+    /*margin-left: 50px;*/
 }
 
 #left-side>h1{
@@ -141,14 +86,14 @@ button:hover{
     color: white;
     position: relative;
 }
-
 #welcome-text{
     top: 20px;
+    left: 5vw;
 }
 
 #other-text{
     top: -80px;
-    left: 125px;
+    left: 13vw;
     width: 800px;
 }
 
@@ -160,12 +105,12 @@ button:hover{
 
     position: relative;
     top: -110px;
-    left: 50px;
+    left: 5vw;
 }
-/*#home-page{*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
+#home-page{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 #home-section-btns{
     width: 400px;
     display: flex;
@@ -179,15 +124,20 @@ button:hover{
     color: #FFFFFF;
 }
 
-#hire-me-btn{
+#hire-me-btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
     width: 170px;
+    height: 40px; /* Ensure height is set */
+    line-height: 40px; /* Match line-height to height */
     background: transparent;
     border: 3px solid #25785E;
     border-radius: 15px;
     font-family: 'poppins', Serif;
     font-weight: lighter;
+    vertical-align: middle; /* Align text vertically */
 }
-
 #download-cv-btn{
     width: 170px;
     height: 40px;
@@ -238,4 +188,9 @@ button:hover{
     width: 20vw;
     font-family: "poppins", Serif;
     font-weight: normal;
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 768px){
+    
 }

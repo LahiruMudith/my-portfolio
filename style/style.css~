@@ -79,3 +79,27 @@ body{
     transform: scaleX(1); /* Scale the underline on hover */
     transform-origin: bottom; /* Set transform origin */
 }
+
+@media all and (max-width: 1024px) and (min-width: 640px) {
+    .nav-btn{
+        margin: 0 2px 0 2px;
+        font-size: 10px;
+        padding: 0.1em 0.5em;
+    }
+}
+
+@media all and (max-width: 640px) {
+    #nav-bar{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #logo{
+        width: 8vw;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}

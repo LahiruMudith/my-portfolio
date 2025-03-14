@@ -1,10 +1,19 @@
 :root{
     --main-green-color: #25785E;
-    --font-color: #B4B6B7;
+    --font-color: #d9f0fe;
+    --font-color-2: #FFFFFF;
+    --bg-color: black;
 }
 body{
     margin: 0;
-    background-color: black;
+    background-color:  var(--bg-color);
+    overflow-x: hidden;
+}
+img[name="icon"]{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
 }
 #page-header-blur{
     width: 100%;
@@ -12,7 +21,7 @@ body{
     position: fixed;
     top: 0;
     z-index: -1;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: var(--bg-color);
     filter: blur(4px);
 }
 #header{
@@ -79,6 +88,87 @@ body{
     transform: scaleX(1); /* Scale the underline on hover */
     transform-origin: bottom; /* Set transform origin */
 }
+#home-page{
+    height: 91vh;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 65vw 30vw);
+    /*background-color: red;*/
+}
+#home-page-left-side{
+    width: 65vw;
+    height: 92vh;
+    background-color: var(--bg-color);
+
+    display: grid;
+    grid-template-columns: 65vw;
+    grid-template-rows: repeat(1, 37vh 30vh 10vh 15vh);
+}
+#home-page-right-side{
+    width: 35vw;
+    height: 92vh;
+    background-color: green;
+}
+.home-page-h1{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    color: var(--font-color-2);
+}
+#welcome-text{
+    font-size: 5em;
+    left: 6vw;
+    top: 5vh;
+}
+#name-text{
+    font-size: 6em;
+    left: 10vw;
+    bottom: 8vh;
+}
+#home-desc{
+    width: 29vw;
+    font-size: 1.2em;
+    color: var(--font-color-2);
+    position: relative;
+    left: 6vw;
+    top: 8vh;
+}
+#home-page-btns{
+    display: flex;
+    justify-content: center;
+}
+#home-page-btns>button{
+    margin: 10px;
+}
+#hire-me-btn{
+    width: 12vw;
+    height: 6vh;
+    text-transform: uppercase;
+    border: 4px solid var(--main-green-color) ;
+    border-radius: 15px;
+    background-color: transparent;
+    color: var(--font-color-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#download-btn{
+    width: 9vw;
+    height: 6vh;
+    color: var(--font-color-2);
+    background-color: var(--main-green-color);
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+#home-page-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 @media all and (max-width: 1024px) and (min-width: 640px) {
     .nav-btn{

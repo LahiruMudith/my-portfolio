@@ -266,3 +266,89 @@ button{
         width: 10vh;
     }
 }
+
+@media all and (max-width: 640px) {
+    #home-page{
+        height: 100vh;
+
+        grid-template-columns: repeat(1, 100vw);
+        grid-template-rows: repeat(1, 40vh 60vh);
+    }
+    #home-page-left-side{
+        grid-row: 1/2;
+
+        width: 100vw;
+        height: 52vh;
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        /*grid-template-columns: 100vw;*/
+        /*grid-template-rows: repeat(1, 9vh 9vh 9vh 10vh 10vh);*/
+        /*!*align-items: start;*!*/
+        justify-content: center;
+    }
+    #home-page-right-side{
+        grid-row: 2/3;
+
+        width: 100vw;
+        height: 48vh;
+    }
+    #welcome-text{
+        font-size: 7vw;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+    }
+    #name-text{
+        font-size: 8vw;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 10vh;
+        margin: auto;
+    }
+    #home-desc{
+        width: 60vw;
+        font-size: 1.8vw;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 20vh;
+        margin: auto;
+    }
+    #home-page-btns{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 30vh;
+        margin: auto;
+    }
+    #hire-me-btn{
+        width: 15vw;
+        height: 6.5vh;
+        font-size: 1.4vw;
+    }
+    #download-btn{
+        width: 12vw;
+        height: 6vh;
+        font-size: 1.3vw;
+    }
+    #home-page-icons{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 40vh;
+    }
+    #my-img{
+        width: 30vw;
+        height: 35vh;
+        align-self: end;
+        /*border-radius: 100%;*/
+        /*border: 1px solid var(--main-green-color);*/
+    }
+}

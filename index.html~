@@ -44,8 +44,8 @@
                         <button id="download-btn">Download CV</button>
                     </div>
                     <div id="home-page-icons">
-                        <img src="assets/images/github.png" name="icon" alt="git hub icon" width="60px">
-                        <img src="assets/images/fiverr.png" name="icon" alt="git hub icon" width="68px">
+                        <img src="assets/images/github.png" name="icon" alt="git hub icon">
+                        <img src="assets/images/fiverr.png" name="icon" alt="git hub icon">
                     </div>
                 </div>
                 <!--right side-->

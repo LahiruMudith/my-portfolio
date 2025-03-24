@@ -369,28 +369,49 @@ button{
 }
 
 @media all and (max-width: 426px){
+    #home-page{
+        grid-template-columns: repeat(1, 100vw);
+        display: block;
+    }
     #welcome-text{
         font-size: 9vw;
     }
-    #name-text{
+    #name-text {
         font-size: 10vw;
+        top: 40vh;
     }
-    #home-desc{
+    #home-desc {
         font-size: 3.2vw;
+        top: 50vh;
     }
     #hire-me-btn{
         width: 30vw;
         font-size: 2.5vw;
+    }
+    #home-page-btns {
+        top: 63vh;
+    }
+    #home-page-icons {
+        top: 73vh;
     }
     #download-btn{
         width: 25vw;
         font-size: 2.5vw;
     }
     #home-page-right-side {
-        height: 100vh;
+        height: 35vh;
+        background-color: transparent;
+        position: absolute;
+        top: 40px;
+    }
+    #home-page-left-side {
+        width: 100vw;
+        height: 87vh;
     }
     #my-img{
-        width: 80%;
-        height: 80%;
+        width: 30vw;
+        height: 30vh;
+        border-radius: 100%;
+        background-position: center;
     }
 }

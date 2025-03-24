@@ -50,8 +50,7 @@
                 </div>
                 <!--right side-->
                 <div id="home-page-right-side">
-                    <img src="assets/images/my-pic.JPG" id="my-img">
-<!--                    <div id="my-img"></div>-->
+                    <div id="my-img"></div>
                 </div>
         </section>
         <!--        &lt;!&ndash;home page&ndash;&gt;-->

@@ -392,7 +392,7 @@ button{
         top: 63vh;
     }
     #home-page-icons {
-        top: 71vh;
+        top: 73vh;
     }
     #download-btn{
         width: 25vw;
@@ -413,5 +413,8 @@ button{
         height: 30vh;
         border-radius: 100%;
         background-position: center;
+        position: absolute;
+        left: 0;
+        right: 0;
     }
 }

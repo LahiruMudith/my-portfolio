@@ -135,7 +135,18 @@ button{
 #welcome-text{
     font-size: 5.5vw;
     left: 6vw;
-    /*top: 5vh;*/
+    width: 26vw;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid var(--main-green-color);
+    animation: typing 3s steps(6, end), cursor 2s steps(6, end);
+    animation-iteration-count: infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes cursor {
+    50% { border-color: transparent }
 }
 #name-text{
     font-size: 6.5vw;

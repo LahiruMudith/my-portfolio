@@ -64,7 +64,7 @@ button{
     background: transparent;
     cursor: pointer;
     position: relative;
-    
+
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -92,8 +92,8 @@ button{
 #home-page{
     width: 100%;
     height: 91vh;
-    position: absolute;
-    top: 8vh;
+    /*position: relative;*/
+    /*top: 8vh;*/
     display: grid;
     grid-template-columns: repeat(1, 65vw 30vw);
     /*background-color: red;*/
@@ -114,7 +114,7 @@ button{
 #home-page-right-side{
     width: 37vw;
     height: 80vh;
-    background-color: var(--bg-color);
+    background-color: transparent;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -193,13 +193,22 @@ button{
 }
 #my-img{
     width: 400px;
-    height: 550px;
+    height: 450px;
     /*background-color: red;*/
     background-image: url("../assets/images/my-pic-desktop.JPG");
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 1;
 }
 
+/*runing bar css*/
+.running-bar{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    z-index: 9;
+}
 
 @media all and (max-width: 1024px) and (min-width: 640px) {
     .nav-btn{
@@ -275,37 +284,38 @@ button{
 
     #home-page{
         height: 100vh;
-
+        width: 100vw;
+        display: grid;
+        justify-content: center;
         grid-template-columns: repeat(1, 100vw);
-        grid-template-rows: repeat(1, 45vh 55vh);
+        grid-template-rows: repeat(1, 61vh 39vh);
     }
     #home-page-left-side{
         grid-row: 1/2;
 
         width: 100vw;
-        height: 52vh;
+        height: 61vh;
         background-color: transparent;
         position: absolute;
         top: 0;
         display: flex;
         flex-direction: column;
-        /*grid-template-columns: 100vw;*/
-        /*grid-template-rows: repeat(1, 9vh 9vh 9vh 10vh 10vh);*/
-        /*!*align-items: start;*!*/
         justify-content: center;
     }
     #home-page-right-side{
         grid-row: 2/3;
-
         width: 100vw;
-        height: 100vh;
+        height: 39vh;
+        display: flex;
+        justify-content: center;
+        position: static;
     }
     #welcome-text{
         font-size: 7vw;
         position: absolute;
         left: 0;
         right: 0;
-        top: 0;
+        top: 10vh;
         margin: auto;
     }
     #name-text{
@@ -313,7 +323,7 @@ button{
         position: absolute;
         left: 0;
         right: 0;
-        top: 10vh;
+        top: 20vh;
         margin: auto;
     }
     #home-desc{
@@ -322,14 +332,14 @@ button{
         position: absolute;
         left: 0;
         right: 0;
-        top: 20vh;
+        top: 30vh;
         margin: auto;
     }
     #home-page-btns{
         position: absolute;
         left: 0;
         right: 0;
-        top: 30vh;
+        top: 40vh;
         margin: auto;
     }
     #hire-me-btn{
@@ -347,9 +357,10 @@ button{
         left: 0;
         right: 0;
         margin: auto;
-        top: 40vh;
+        top: 50vh;
     }
     #my-img{
+        width: 25%;
         height: 100%;
         background-image: url("../assets/images/my-pic-mobile.jpg");
         background-size: cover;
@@ -370,6 +381,7 @@ button{
 
 @media all and (max-width: 426px){
     #home-page{
+        height: 100vh;
         grid-template-columns: repeat(1, 100vw);
         display: block;
     }
@@ -378,21 +390,21 @@ button{
     }
     #name-text {
         font-size: 10vw;
-        top: 40vh;
+        top: 58vh;
     }
     #home-desc {
         font-size: 3.2vw;
-        top: 50vh;
+        top: 67vh;
     }
     #hire-me-btn{
         width: 30vw;
         font-size: 2.5vw;
     }
     #home-page-btns {
-        top: 63vh;
+        top: 80vh;
     }
     #home-page-icons {
-        top: 73vh;
+        top: 90vh;
     }
     #download-btn{
         width: 25vw;
@@ -402,15 +414,15 @@ button{
         height: 35vh;
         background-color: transparent;
         position: absolute;
-        top: 40px;
+        top: 20vh;
     }
     #home-page-left-side {
         width: 100vw;
         height: 87vh;
     }
     #my-img{
-        width: 30vw;
-        height: 30vh;
+        width: 37vw;
+        height: 39vh;
         border-radius: 100%;
         background-position: center;
         position: absolute;

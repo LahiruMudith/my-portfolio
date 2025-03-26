@@ -204,11 +204,28 @@ button{
 /*runing bar css*/
 .running-bar{
     width: 100%;
-    height: 100px;
-    background-color: red;
+    height: 17vh;
+    margin: 2vh 0;
+    background-color: var(--main-green-color);
     display: flex;
+    justify-content: space-around;
     z-index: 9;
 }
+.runing-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.runing-item>p{
+    font-size: 1.5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: var(--font-color-2);
+}
+
+
+
+
 
 @media all and (max-width: 1024px) and (min-width: 640px) {
     .nav-btn{
@@ -265,7 +282,11 @@ button{
         width: 10vh;
     }
 }
-
+@media all and (max-width: 980px){
+    .runing-item>p{
+        font-size: 2vw;
+    }
+}
 
 @media all and (max-width: 640px) {
     #nav-bar{
@@ -365,6 +386,22 @@ button{
         background-image: url("../assets/images/my-pic-mobile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+    }
+    .running-bar{
+        width: 100vw;
+        height: 10vh;
+        overflow: hidden;
+    }
+    .runing-item{
+        width: fit-content;
+        padding: 0 10vw;
+    }
+    .runing-item>img{
+        width: 4vw;
+    }
+    .runing-item>p{
+        width: 22vw;
+        font-size: 2.5vw;
     }
 }
 

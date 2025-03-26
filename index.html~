@@ -55,7 +55,7 @@
         </section>
 
         <!--running bar-->
-        <div id="running-bar">
+        <div class="running-bar">
             <div class="runing-item">
                 <img src="assets/images/Star.png" alt="star" width="20px">
                 <P>Quick Response</P>

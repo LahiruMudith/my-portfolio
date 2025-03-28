@@ -248,12 +248,13 @@ button{
     margin: auto;
 }
 .education-page-btn{
-    width: 270px;
+    width: 200px;
     height: 63px;
-    font-size: 24px;
+    font-size: 16px;
+    margin-top: 3vh;
     border: none;
     border-radius: 20px;
-    font-family: "Source Code Pro";
+    font-family: "Source Code Pro", monospace;
     /*font-optical-sizing: auto;*/
     font-weight: 700;
 }
@@ -267,11 +268,23 @@ button{
 }
 .card-set{
     display: flex;
-    /*justify-content: space-between;*/
+    justify-content: space-around;
+    margin-top: 20vh;
 }
 .card{
-    width: 400px;
-    /*display: flex;*/
+    width: 13vw;
+    height: 30vh;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card>p{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Poppins", monospace;
+    font-weight: 500;
 }
 
 

@@ -712,7 +712,7 @@ button{
         width: 25vw;
     }
     .card {
-        width: 55vw;
+        width: 57vw;
     }
     .education-page-btn {
         width: 25vw;

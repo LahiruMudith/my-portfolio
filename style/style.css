@@ -722,4 +722,7 @@ button{
     .card > p {
         font-size: 2vw;
     }
+    #about-me-page-footer {
+        height: 5vh;
+    }
 }

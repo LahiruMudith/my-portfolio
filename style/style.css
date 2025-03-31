@@ -723,7 +723,7 @@ button{
         font-size: 2vw;
     }
     #about-me-page-footer {
-        border-width: 1px;
+        border-width: 1px 0;
         height: 5vh;
     }
 }

@@ -578,6 +578,24 @@ button{
         width: 22vw;
         font-size: 2.5vw;
     }
+    .card-set {
+        height: 36vh;
+    }
+    #education-section {
+        height: 30vh;
+    }
+    .card {
+        height: 24vh;
+    }
+    #about-me-page {
+        height: 55vh;
+    }
+    #education-section {
+        height: 45vh;
+    }
+    .card > p {
+        font-size: 1.5vw;
+    }
 }
 
 @media all and (max-width: 560px) {
@@ -588,6 +606,29 @@ button{
     #download-btn{
         width: 17vw;
         font-size: 2vw;
+    }
+    .education-page-btn {
+        width: 20vw;
+        height: 7vh;
+        font-size: 1.8vw;
+    }
+    #about-me-page-footer {
+        height: 7vh;
+    }
+    #about-me-page-footer > img:nth-child(1) {
+        width: 11vw;
+    }
+    #about-me-page-footer > img:nth-child(2) {
+        width: 11vw;
+    }
+    #about-me-page-footer > img:nth-child(3) {
+        width: 7vw;
+    }
+    #about-me-page-footer > img:nth-child(4) {
+        width: 7vw;
+    }
+    #about-me-page-footer > img:nth-child(5) {
+        width: 7vw;
     }
 }
 

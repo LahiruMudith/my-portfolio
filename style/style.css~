@@ -576,7 +576,7 @@ button{
     }
     .runing-item>p{
         width: 22vw;
-        font-size: 2.5vw;
+        font-size: 2.4vw;
     }
     .card-set {
         height: 36vh;
@@ -625,10 +625,10 @@ button{
         width: 7vw;
     }
     #about-me-page-footer > img:nth-child(4) {
-        width: 7vw;
+        width: 6vw;
     }
     #about-me-page-footer > img:nth-child(5) {
-        width: 7vw;
+        width: 6vw;
     }
     #about-me-page {
         height: 49vh;

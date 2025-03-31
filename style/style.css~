@@ -630,6 +630,9 @@ button{
     #about-me-page-footer > img:nth-child(5) {
         width: 7vw;
     }
+    #about-me-page {
+        height: 49vh;
+    }
 }
 
 @media all and (max-width: 426px){

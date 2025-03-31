@@ -700,7 +700,7 @@ button{
         height: 70vh;
     }
     #education-section {
-        height: 59vh;
+        height: 62vh;
     }
     .card-set > div:nth-child(1) > img {
         width: 20vw;

@@ -237,24 +237,28 @@ button{
     color: var(--font-color-2);
 }
 #about-me-page{
-    /*width: 100%;*/
-    /*background-color: red;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+#education-section{
+    height: 85vh;
 }
 .education-work-ex-btns{
     width: fit-content;
     height: fit-content;
-    position: relative;
-    left: 0;
-    right: 0;
-    margin: auto;
+    /*position: relative;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*margin: auto;*/
+    align-self: center;
 }
 .education-page-btn{
     width: 200px;
     height: 63px;
     font-size: 16px;
-    margin-top: 3vh;
     border: none;
     border-radius: 20px;
     font-family: "Poppins", monospace;
@@ -272,11 +276,12 @@ button{
 .card-set{
     display: flex;
     justify-content: space-around;
-    margin-top: 20vh;
+    height: 65vh;
+    align-items: center;
 }
 .card{
-    width: 13vw;
-    height: 30vh;
+    width: 22vw;
+    height: 65vh;
     display: flex;
     /*flex-direction: column;*/
     justify-content: center;
@@ -289,11 +294,67 @@ button{
     font-family: "Poppins", monospace;
     font-weight: 500;
 }
+#work-experience{
+    height: 50vh;
+    margin-top: 5vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    display: none;
+}
+#about-me-page-footer{
+    width: 100%;
+    height: 14vh;
+    background-color: #707876;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-width: 2px 0 ;
+    border-style: solid;
+    border-color: #B4B6B7;
+    position: absolute;
+    bottom: 0;
+}
+#about-me-page-footer > img:nth-child(1) #about-me-page-footer > img:nth-child(2){
+    width: 70px;
+}
+#about-me-page-footer > img:nth-child(3) #about-me-page-footer > img:nth-child(4) #about-me-page-footer > img:nth-child(5) {
+    width: 60px;
+}
 
-
-
-
+@media all and (max-width: 1070px) {
+    .card-set > div:nth-child(1) > img {
+        width: 9vw;
+    }
+    .card-set > div:nth-child(2) > img {
+        width: 15vw;
+    }
+    .card-set > div:nth-child(3) > img {
+        width: 15vw;
+    }
+    .card > p{
+        font-size: 1.2vw;
+    }
+    #education-section{
+        height: 60vh;
+    }
+    .education-page-btn {
+        width: 18vw;
+        height: 10vh;
+        font-size: 1.5vw;
+    }
+    #about-me-page-footer{
+        height: 12vh;
+    }
+    #about-me-page-footer > img:nth-child(1) #about-me-page-footer > img:nth-child(2){
+        width: 70px;
+    }
+    #about-me-page-footer > img:nth-child(3) #about-me-page-footer > img:nth-child(4) #about-me-page-footer > img:nth-child(5) {
+        width: 20px;
+    }
+}
 @media all and (max-width: 1024px) and (min-width: 640px) {
     .nav-btn{
         margin: 0 2px 0 2px;
@@ -348,10 +409,57 @@ button{
     #home-page-icons>img:nth-child(2){
         width: 10vh;
     }
+    .card-set {
+        height: 57vh;
+    }
 }
 @media all and (max-width: 980px){
     .runing-item>p{
         font-size: 2vw;
+    }
+    #about-me-page-footer{
+        height: 10vh;
+    }
+    #about-me-page-footer > img:nth-child(1) #about-me-page-footer > img:nth-child(2){
+        width: 70px;
+    }
+    #about-me-page-footer > img:nth-child(3){
+        width: 50px;
+    }
+    #about-me-page-footer > img:nth-child(4){
+        width: 50px;
+    }
+    #about-me-page-footer > img:nth-child(5){
+        width: 50px;
+    }
+    #education-section {
+        height: 55vh;
+    }
+    #about-me-page {
+        height: 77vh;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .running-bar {
+        height: 13vh;
+    }
+    #education-section {
+        height: 50vh;
+    }
+    #about-me-page {
+        height: 71vh;
+    }
+    .card-set {
+        height: 45vh;
+    }
+    .education-page-btn {
+        width: 18vw;
+        height: 8vh;
+        font-size: 1.5vw;
+    }
+    #about-me-page {
+        height: 67vh;
     }
 }
 
@@ -469,6 +577,9 @@ button{
     .runing-item>p{
         width: 22vw;
         font-size: 2.5vw;
+    }
+    .card-set {
+        flex-direction: column;
     }
 }
 

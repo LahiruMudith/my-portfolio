@@ -21,23 +21,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <!--page header-->
-        <header id="header">
-            <div id="page-header-blur"></div>
-            <img src="assets/images/black-logo.png" id="logo">
-            <nav id="nav-bar">
-                <a href="#home-page" class="nav-btn">Home</a>
-                <a href="#about-me-page" class="nav-btn">About Me</a>
-                <a href="#skill-page" class="nav-btn">Skills</a>
-                <a href="#project-page" class="nav-btn">Projects</a>
-                <a href="#assignment-page" class="nav-btn">Assignments</a>
-                <a href="#gallery-page" class="nav-btn">Gallery</a>
-                <a href="#contact-me-page" class="nav-btn">Contact me</a>
-            </nav>
-            <img src="https://img.icons8.com/plumpy/96/b4b6b7/menu--v5.png" alt="menu" class="menu-icon"/>
-        </header>
-        <!--home page-->
-        <section id="home-page">
+    <!--bg animation-->
+        <div id='w'>
+            <canvas id="space"></canvas>
+            <a href="#" id="warp"></a>
+
+            <!--page header-->
+            <header id="header">
+                <div id="page-header-blur"></div>
+                <img src="assets/images/black-logo.png" id="logo">
+                <nav id="nav-bar">
+                    <a href="#home-page" class="nav-btn">Home</a>
+                    <a href="#about-me-page" class="nav-btn">About Me</a>
+                    <a href="#skill-page" class="nav-btn">Skills</a>
+                    <a href="#project-page" class="nav-btn">Projects</a>
+                    <a href="#assignment-page" class="nav-btn">Assignments</a>
+                    <a href="#gallery-page" class="nav-btn">Gallery</a>
+                    <a href="#contact-me-page" class="nav-btn">Contact me</a>
+                </nav>
+                <img src="https://img.icons8.com/plumpy/96/b4b6b7/menu--v5.png" alt="menu" class="menu-icon"/>
+            </header>
+            <!--home page-->
+            <section id="home-page">
                 <!--left side-->
                 <div id="home-page-left-side">
                     <h1 id="welcome-text" class="home-page-h1">Welcome</h1>
@@ -58,74 +63,76 @@
                 <div id="home-page-right-side">
                     <div id="my-img"></div>
                 </div>
-        </section>
+            </section>
 
-        <!--running bar-->
-        <div class="running-bar">
-            <div class="runing-item">
-                <img src="assets/images/Star.png" alt="star" width="20px">
-                <P>Quick Response</P>
+            <!--running bar-->
+            <div class="running-bar">
+                <div class="runing-item">
+                    <img src="assets/images/Star.png" alt="star" width="20px">
+                    <P>Quick Response</P>
+                </div>
+                <div class="runing-item">
+                    <img src="assets/images/Star.png" alt="star" width="20px">
+                    <p>100% Satisfaction</p>
+                </div>
+                <div class="runing-item">
+                    <img src="assets/images/Star.png" alt="star" width="20px">
+                    <P>Friendly</P>
+                </div>
+                <div class="runing-item">
+                    <img src="assets/images/Star.png" alt="star" width="20px">
+                    <p>Life Time Support</p>
+                </div>
             </div>
-            <div class="runing-item">
-                <img src="assets/images/Star.png" alt="star" width="20px">
-                <p>100% Satisfaction</p>
-            </div>
-            <div class="runing-item">
-                <img src="assets/images/Star.png" alt="star" width="20px">
-                <P>Friendly</P>
-            </div>
-            <div class="runing-item">
-                <img src="assets/images/Star.png" alt="star" width="20px">
-                <p>Life Time Support</p>
-            </div>
+
+            <!--Education & Work Experience page-->
+            <section id="about-me-page">
+                <!--main buttons-->
+                <div class="education-work-ex-btns">
+                    <button type="button" class="education-page-btn edu-btn">Education</button>
+                    <button type="button" class="education-page-btn work-btn">Work Experience</button>
+                </div>
+                <!--Education Section-->
+                <div id="education-section">
+                    <!--cards-->
+                    <div class="card-set">
+                        <div class="card">
+                            <img src="assets/images/sri-sumangala-college.png" alt="icon" width="150px">
+                            <p>This is the school I went to from Grade 1 to Grade 11. My favourite subject in school was IT.
+                                I sat for my Ordinary Level exam in this school during the academic year of 2022/2023.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/images/ijse-icon.png" alt="icon" width="200px">
+                            <p>I am currently studying computer science at this institution.
+                                I finish the 1st semester with gratefull marks</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/images/acpt-removebg-preview.png" alt="icon" width="250px">
+                            <p>I studied in ACPT. I finished APJD (Advance Professional Java Developer ) and
+                                APWD (Advance Professional Web Developer )</p>
+                        </div>
+                    </div>
+
+                    <!--Work Experience-->
+                    <div id="work-experience">
+                        <div>
+                            <h1>No Work Experience</h1>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Page footer-->
+                <div id="about-me-page-footer">
+                    <img src="assets/images/acpt-removebg-preview.png" alt="icon" width="130">
+                    <img src="assets/images/ijse-icon.png" alt="icon" width="130">
+                    <img src="assets/images/sri-sumangala-college.png" alt="icon" width="60">
+                    <img src="assets/images/aquinas-icon.jpg" alt="icon" width="60">
+                    <img src="assets/images/best-vision-icon.jpg" alt="icon" width="60">
+                </div>
+            </section>
         </div>
 
-        <!--Education & Work Experience page-->
-        <section id="about-me-page">
-            <!--main buttons-->
-            <div class="education-work-ex-btns">
-                <button type="button" class="education-page-btn edu-btn">Education</button>
-                <button type="button" class="education-page-btn work-btn">Work Experience</button>
-            </div>
-            <!--Education Section-->
-            <div id="education-section">
-                <!--cards-->
-                <div class="card-set">
-                    <div class="card">
-                        <img src="assets/images/sri-sumangala-college.png" alt="icon" width="150px">
-                        <p>This is the school I went to from Grade 1 to Grade 11. My favourite subject in school was IT.
-                            I sat for my Ordinary Level exam in this school during the academic year of 2022/2023.
-                        </p>
-                    </div>
-                    <div class="card">
-                        <img src="assets/images/ijse-icon.png" alt="icon" width="200px">
-                        <p>I am currently studying computer science at this institution.
-                            I finish the 1st semester with gratefull marks</p>
-                    </div>
-                    <div class="card">
-                        <img src="assets/images/acpt-removebg-preview.png" alt="icon" width="250px">
-                        <p>I studied in ACPT. I finished APJD (Advance Professional Java Developer ) and
-                            APWD (Advance Professional Web Developer )</p>
-                    </div>
-                </div>
-
-                <!--Work Experience-->
-                <div id="work-experience">
-                    <div>
-                        <h1>No Work Experience</h1>
-                    </div>
-                </div>
-
-            </div>
-            <!--Page footer-->
-            <div id="about-me-page-footer">
-                <img src="assets/images/acpt-removebg-preview.png" alt="icon" width="130">
-                <img src="assets/images/ijse-icon.png" alt="icon" width="130">
-                <img src="assets/images/sri-sumangala-college.png" alt="icon" width="60">
-                <img src="assets/images/aquinas-icon.jpg" alt="icon" width="60">
-                <img src="assets/images/best-vision-icon.jpg" alt="icon" width="60">
-            </div>
-        </section>
 
 <!--        &lt;!&ndash;Skill Page&ndash;&gt;-->
 <!--        <section id="skill-page" style="width: 100vw">-->
@@ -207,5 +214,6 @@
 
 
         <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
+        <script src="js/index.js"></script>
     </body>
 </html>

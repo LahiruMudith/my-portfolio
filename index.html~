@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lahiru Mudith</title>
+        <link rel="icon" href="assets/images/black-logo.png">
+        <link rel="stylesheet" href="assets/lib/normalize.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <!--bg animation-->
+        <div id='w'>
+            <canvas id="space"></canvas>
+            <a href="#" id="warp"></a>
+
+            <!--page header-->
+            <header id="header">
+                <div id="page-header-blur"></div>
+                <img src="assets/images/black-logo.png" id="logo">
+                <nav id="nav-bar">
+                    <a href="#home-page" class="nav-btn">Home</a>
+                    <a href="#about-me-page" class="nav-btn">About Me</a>
+                    <a href="#skill-page" class="nav-btn">Skills</a>
+                    <a href="#project-page" class="nav-btn">Projects</a>
+                    <a href="#assignment-page" class="nav-btn">Assignments</a>
+                    <a href="#gallery-page" class="nav-btn">Gallery</a>
+                    <a href="#contact-me-page" class="nav-btn">Contact me</a>
+                </nav>
+                <img src="https://img.icons8.com/plumpy/96/b4b6b7/menu--v5.png" alt="menu" class="menu-icon"/>
+            </header>
+            <!--home page-->
+            <section id="home-page">
+                <!--left side-->
+                <div id="home-page-left-side">
+                    <h1 id="welcome-text" class="home-page-h1">Welcome</h1>
+                    <h1 id="name-text" class="home-page-h1">Im Lahiru Mudith</h1>
+                    <p id="home-desc">
+                        Hello im Lahiru Mudith.Student in IJSE.I craft tailored solutions for your unique needs.Let's collaborate to bring your web development vision to life!
+                    </p>
+                    <div id="home-page-btns">
+                        <button id="hire-me-btn">hire me <img src="assets/images/User.png" width="30px" ></button>
+                        <button id="download-btn">Download CV</button>
+                    </div>
+                    <div id="home-page-icons">
+                        <img src="assets/images/github.png" name="icon" alt="git hub icon">
+                        <img src="assets/images/fiverr.png" name="icon" alt="fiverr icon">
+                    </div>
+                </div>
+                <!--right side-->
+                <div id="home-page-right-side">
+                    <div id="my-img"></div>
+                </div>
+            </section>
+
+            <!--running bar-->
+            <div class="running-bar">
+                <div class="runing-item">
+                    <img src="assets/images/Star.png" alt="star" width="20px">
+                    <P>Quick Response</P>
+                </div>
+                <div class="runing-item">
+                    <img src="assets/images/Star.png" alt="star" width="20px">
+                    <p>100% Satisfaction</p>
+                </div>
+                <div class="runing-item">
+                    <img src="assets/images/Star.png" alt="star" width="20px">
+                    <P>Friendly</P>
+                </div>
+                <div class="runing-item">
+                    <img src="assets/images/Star.png" alt="star" width="20px">
+                    <p>Life Time Support</p>
+                </div>
+            </div>
+
+            <!--Education & Work Experience page-->
+            <section id="about-me-page">
+                <!--main buttons-->
+                <div class="education-work-ex-btns">
+                    <button type="button" class="education-page-btn edu-btn">Education</button>
+                    <button type="button" class="education-page-btn work-btn">Work Experience</button>
+                </div>
+                <!--Education Section-->
+                <div id="education-section">
+                    <!--cards-->
+                    <div class="card-set">
+                        <div class="card">
+                            <img src="assets/images/sri-sumangala-college.png" alt="icon" width="150px">
+                            <p>This is the school I went to from Grade 1 to Grade 11. My favourite subject in school was IT.
+                                I sat for my Ordinary Level exam in this school during the academic year of 2022/2023.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/images/ijse-icon.png" alt="icon" width="200px">
+                            <p>I am currently studying computer science at this institution.
+                                I finish the 1st semester with gratefull marks</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/images/acpt-removebg-preview.png" alt="icon" width="250px">
+                            <p>I studied in ACPT. I finished APJD (Advance Professional Java Developer ) and
+                                APWD (Advance Professional Web Developer )</p>
+                        </div>
+                    </div>
+
+                    <!--Work Experience-->
+                    <div id="work-experience">
+                        <div>
+                            <h1>No Work Experience</h1>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Page footer-->
+                <div id="about-me-page-footer">
+                    <img src="assets/images/acpt-removebg-preview.png" alt="icon" width="130">
+                    <img src="assets/images/ijse-icon.png" alt="icon" width="130">
+                    <img src="assets/images/sri-sumangala-college.png" alt="icon" width="60">
+                    <img src="assets/images/aquinas-icon.jpg" alt="icon" width="60">
+                    <img src="assets/images/best-vision-icon.jpg" alt="icon" width="60">
+                </div>
+            </section>
+        </div>
+
+    <main class="hexagon-container">
+        <div class="hexagon color-sass">
+            <img src="assets/images/icon/html5.svg" width="20" alt="Sass icon">
+        </div>
+        <div class="hexagon color-sass">
+            <img src="../assets/images/icon/apachenetbeanside.svg" width="20" alt="Sass icon">
+        </div>
+        <div class="hexagon color-sass">
+            <img src="../assets/images/icon/bootstrap.svg" width="20" alt="Sass icon">
+        </div>
+        <div class="hexagon color-sass">
+            <img src="../assets/images/icon/canva.svg" width="20" alt="Sass icon">
+        </div>
+        <div class="hexagon color-sass">
+            <img src="../assets/images/icon/css3.svg" width="20" alt="Sass icon">
+        </div>
+        <div class="hexagon color-sass">
+            <img src="../assets/images/icon/express.svg" width="20" alt="Sass icon">
+        </div>
+        <div class="hexagon color-sass">
+            <img src="../assets/images/icon/git.svg" width="20" alt="Sass icon">
+        </div>
+        <div class="hexagon color-sass">
+            <img src="../assets/images/icon/intellijidea.svg" width="20" alt="Sass icon">
+        </div>
+        <div class="hexagon color-sass">
+            <img src="../assets/images/icon/javascript.svg" width="20" alt="Sass icon">
+        </div>
+        <div class="hexagon color-sass">
+            <img src="../assets/images/icon/mysql.svg" width="20" alt="Sass icon">
+        </div>
+        <div class="hexagon color-sass">
+            <img src="../assets/images/icon/nodedotjs.svg" width="20" alt="Sass icon">
+        </div>
+        <div class="hexagon color-sass">
+            <img src="../assets/images/icon/react.svg" width="20" alt="Sass icon">
+        </div>
+        <div class="hexagon color-sass">
+            <img src="../assets/images/icon/tailwindcss.svg" width="20" alt="Sass icon">
+        </div>
+    </main>
+<!--        &lt;!&ndash;Skill Page&ndash;&gt;-->
+<!--        <section id="skill-page" style="width: 100vw">-->
+<!--            <img src="assets/images/Hexagon-Technology-Element-Design.png" alt="skills picture" width="1000">-->
+<!--        </section>-->
+
+<!--        &lt;!&ndash;Project & Assignment Page&ndash;&gt;-->
+<!--        <section id="project-page">-->
+<!--            &lt;!&ndash;main buttons&ndash;&gt;-->
+<!--            <div>-->
+<!--                <button>Education</button>-->
+<!--                <button>Work Experience</button>-->
+<!--            </div>-->
+
+<!--            &lt;!&ndash;Cards&ndash;&gt;-->
+<!--            <div>-->
+<!--                <div>-->
+<!--                    <h4>Titile</h4>-->
+<!--                    <img src="assets/images/best-vision-icon.jpg" alt="logo" width="100px">-->
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda consectetur dolorem eligendi, esse in iste numquam obcaecati quae quo, ratione rem repellendus reprehenderit soluta sunt voluptas voluptate. Alias, sed.</p>-->
+<!--                    <button type="button">-->
+<!--                        <img src="assets/images/github.png" alt="git hub icon" width="50px">-->
+<!--                    </button>-->
+<!--                    <button type="button">-->
+<!--                        <img src="assets/images/View.png" alt="view icon" width="50px">-->
+<!--                    </button>-->
+<!--                    <img src="assets/images/rating-star.png" alt="star rating" width="100px">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+
+
+<!--        &lt;!&ndash;Image Gallery Page&ndash;&gt;-->
+<!--        <section id="gallery-page">-->
+<!--            <img src="assets/images/photo-4.jpg" alt="my photo" width="300">-->
+<!--            <img src="assets/images/photo-2.jpg" alt="my photo" width="300">-->
+<!--            <img src="assets/images/photo-3.jpg" alt="my photo" width="300">-->
+<!--            <img src="assets/images/photo-1.jpg" alt="my photo" width="300">-->
+<!--            <img src="assets/images/photo5.png" alt="my photo" width="300">-->
+<!--        </section>-->
+
+<!--        &lt;!&ndash;Contact Me Page&ndash;&gt;-->
+<!--        <section id="contact-me-page">-->
+<!--            &lt;!&ndash;Left Right&ndash;&gt;-->
+<!--            <div>-->
+<!--                <input type="text" placeholder="Enter Your Name">-->
+<!--                <input type="email" placeholder="Enter Your Email">-->
+<!--                <input type="text" placeholder="Message">-->
+<!--                <button type="submit">Get in Touch</button>-->
+<!--            </div>-->
+
+<!--            &lt;!&ndash;Right Side&ndash;&gt;-->
+<!--            <div>-->
+<!--                <p>-->
+<!--                    Im always to here with you...you can send me a email or whats app message.Other Social Media Links Have Bellow-->
+<!--                </p>-->
+<!--                <p>Email: <a href="mailto:lahimudith@gmail.com">lahimudith@gmail.com</a></p>-->
+<!--                <p>Whatsapp: <a href="tel:+94761298256">0761298256</a></p>-->
+
+<!--                <div>-->
+<!--                    <button>-->
+<!--                        <img src="assets/images/fiverr.png" alt="fiverr icon" width="50px">-->
+<!--                    </button>-->
+<!--                    <button>-->
+<!--                        <img src="assets/images/github.png" alt="git hub icon" width="50px">-->
+<!--                    </button>-->
+<!--                    <button>-->
+<!--                        <img src="assets/images/Facebook-Circled.png" alt="fb icon" width="50px">-->
+<!--                    </button>-->
+<!--                    <button>-->
+<!--                        <img src="assets/images/LinkedIn.png" alt="linkedin icon" width="50px">-->
+<!--                    </button>-->
+<!--                    <button>-->
+<!--                        <img src="assets/images/Instagram.png" alt="instagram icon" width="50px">-->
+<!--                    </button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

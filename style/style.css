@@ -344,6 +344,7 @@ html, body {
     width: 60px;
 }
 
+
 @media all and (max-width: 1070px) {
     .card-set > div:nth-child(1) > img {
         width: 9vw;
@@ -375,6 +376,46 @@ html, body {
         width: 20px;
     }
 }
+#skill-page{
+    display: flex;
+    height: 500px;
+    align-items: center;
+
+}
+.ball {
+    animation: float 5.0s ease-in-out infinite;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+}
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    25% {
+        transform: translatey(-50px);
+    }
+    50% {
+        transform: translatey(0px);
+    }
+    75% {
+        transform: translatey(50px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+.ball :hover{
+    cursor: pointer;
+    border-radius: 50%;
+}
+
 @media all and (max-width: 1024px) and (min-width: 640px) {
     .nav-btn{
         margin: 0 2px 0 2px;
@@ -745,5 +786,20 @@ html, body {
     #about-me-page-footer {
         border-width: 1px 0;
         height: 5vh;
+    }
+    #about-me-page-footer > img:nth-child(1) {
+        width: 11vw;
+    }
+    #about-me-page-footer > img:nth-child(2) {
+        width: 11vw;
+    }
+    #about-me-page-footer > img:nth-child(3) {
+        width: 5vw;
+    }
+    #about-me-page-footer > img:nth-child(4) {
+        width: 5vw;
+    }
+    #about-me-page-footer > img:nth-child(5) {
+        width: 5vw;
     }
 }

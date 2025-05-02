@@ -3,7 +3,7 @@ window.requestAnimFrame = (function(){   return  window.requestAnimationFrame})(
 var canvas = document.getElementById("space");
 var c = canvas.getContext("2d");
 
-var numStars = 1900;
+var numStars = 3000;
 var radius = '0.'+Math.floor(Math.random() * 9) + 1  ;
 var focalLength = canvas.width *2;
 var warp = 0;
@@ -34,7 +34,7 @@ function initializeStars(){
             x: Math.random() * canvas.width,
             y: Math.random() * canvas.height,
             z: Math.random() * canvas.width,
-            o: '0.'+Math.floor(Math.random() * 99) + 1
+            o: '0.'+Math.floor(Math.random() * 1000) + 1
         };
         stars.push(star);
     }

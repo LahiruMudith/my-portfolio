@@ -726,6 +726,7 @@ html, body {
 @media all and (max-width: 515px) {
     .skill-grid{
         grid-template-columns: repeat(3, 1fr);
+        height: fit-content(calc(50px));
     }
     .skill-icon{
         width: 12vw;
@@ -837,5 +838,11 @@ html, body {
     }
     #about-me-page-footer > img:nth-child(5) {
         width: 5vw;
+    }
+    .skill-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .skill-icon{
+        width: 15vw;
     }
 }

@@ -136,72 +136,72 @@
                 <div class="skill-grid">
                     <div class="ball">
                         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                            <img src="assets/images/icon/html5.svg" width="75" alt="html icon" class="skill-icon">
+                            <img src="assets/images/icon/html5.svg" width="75" alt="html icon">
                         </a>
                     </div>
                     <div class="ball">
                         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-                            <img src="assets/images/icon/css3.svg" width="75" alt="css icon" class="skill-icon">
+                            <img src="assets/images/icon/css3.svg" width="75" alt="html icon">
                         </a>
                     </div>
                     <div class="ball">
                         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-                            <img src="assets/images/icon/js.svg" width="75" alt="java script icon" class="skill-icon">
+                            <img src="assets/images/icon/js.svg" width="75" alt="html icon">
                         </a>
                     </div>
                     <div class="ball">
                         <a href="https://www.java.com/en/" target="_blank">
-                            <img src="assets/images/icon/java.svg" width="75" alt="java icon" class="skill-icon">
+                            <img src="assets/images/icon/java.svg" width="75" alt="html icon">
                         </a>
                     </div>
                     <div class="ball">
                         <a href="https://react.dev/" target="_blank">
-                            <img src="assets/images/icon/react.svg" width="75" alt="react icon" class="skill-icon">
+                            <img src="assets/images/icon/react.svg" width="75" alt="html icon">
                         </a>
                     </div>
                     <div class="ball">
                         <a href="https://nodejs.org/en" target="_blank">
-                            <img src="assets/images/icon/nodedotjs.svg" width="75" alt="node js icon" class="skill-icon">
+                            <img src="assets/images/icon/nodedotjs.svg" width="75" alt="html icon">
                         </a>
                     </div>
                     <div class="ball">
                         <a href="https://www.mysql.com/" target="_blank">
-                            <img src="assets/images/icon/mysql.svg" width="75" alt="mysql icon" class="skill-icon">
+                            <img src="assets/images/icon/mysql.svg" width="75" alt="html icon">
                         </a>
                     </div>
                     <div class="ball">
                         <a href="https://git-scm.com/" target="_blank">
-                            <img src="assets/images/icon/git.svg" width="75" alt="git icon" class="skill-icon">
+                            <img src="assets/images/icon/git.svg" width="75" alt="html icon">
                         </a>
                     </div>
                     <div class="ball">
                         <a href="https://tailwindcss.com/" target="_blank">
-                            <img src="assets/images/icon/tailwindcss.svg" width="75" alt="tailwind css icon" class="skill-icon">
+                            <img src="assets/images/icon/tailwindcss.svg" width="75" alt="html icon">
                         </a>
                     </div>
                     <div class="ball">
                         <a href="https://getbootstrap.com/" target="_blank">
-                            <img src="assets/images/icon/bootstrap.svg" width="75" alt="bootstrap icon" class="skill-icon">
+                            <img src="assets/images/icon/bootstrap.svg" width="75" alt="html icon">
                         </a>
                     </div>
                     <div class="ball">
                         <a href="https://www.canva.com/" target="_blank">
-                            <img src="assets/images/icon/canva.svg" width="75" alt="canva icon" class="skill-icon">
+                            <img src="assets/images/icon/canva.svg" width="75" alt="html icon">
                         </a>
                     </div>
                     <div class="ball">
                         <a href="https://www.jetbrains.com/idea/" target="_blank">
-                            <img src="assets/images/icon/intellijidea.svg" width="75" alt="intellij idea icon" class="skill-icon">
+                            <img src="assets/images/icon/intellijidea.svg" width="75" alt="html icon">
                         </a>
                     </div>
                     <div class="ball">
                         <a href="https://netbeans.apache.org/front/main/download/" target="_blank">
-                            <img src="assets/images/icon/apachenetbeanside.svg" width="75" alt="net beans icon" class="skill-icon">
+                            <img src="assets/images/icon/apachenetbeanside.svg" width="75" alt="html icon">
                         </a>
                     </div>
                     <div class="ball">
                         <a href="https://code.visualstudio.com/" target="_blank">
-                            <img src="assets/images/icon/vs-code.svg" width="75" alt="vs code icon" class="skill-icon">
+                            <img src="assets/images/icon/vs-code.svg" width="75" alt="html icon">
                         </a>
                     </div>
                 </div>

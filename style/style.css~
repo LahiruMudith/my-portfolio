@@ -327,6 +327,7 @@ html, body {
 #about-me-page-footer{
     width: 100%;
     height: 14vh;
+    opacity: 0.6;
     background-color: #707876;
     display: flex;
     justify-content: space-evenly;
@@ -342,6 +343,47 @@ html, body {
 }
 #about-me-page-footer > img:nth-child(3) #about-me-page-footer > img:nth-child(4) #about-me-page-footer > img:nth-child(5) {
     width: 60px;
+}
+#skill-page{
+    display: flex;
+    justify-content: space-around;
+
+}
+.skill-grid{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 500px;
+    align-items: center;
+}
+.ball {
+    animation: float 5.0s ease-in-out infinite;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 10px;
+}
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    25% {
+        transform: translatey(-20px);
+    }
+    50% {
+        transform: translatey(0px);
+    }
+    75% {
+        transform: translatey(20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
 }
 
 
@@ -375,44 +417,9 @@ html, body {
     #about-me-page-footer > img:nth-child(3) #about-me-page-footer > img:nth-child(4) #about-me-page-footer > img:nth-child(5) {
         width: 20px;
     }
-}
-#skill-page{
-    display: flex;
-    height: 500px;
-    align-items: center;
-
-}
-.ball {
-    animation: float 5.0s ease-in-out infinite;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-}
-@keyframes float {
-    0% {
-        transform: translatey(0px);
+    .skill-icon{
+        width: 6vw;
     }
-    25% {
-        transform: translatey(-50px);
-    }
-    50% {
-        transform: translatey(0px);
-    }
-    75% {
-        transform: translatey(50px);
-    }
-    100% {
-        transform: translatey(0px);
-    }
-}
-.ball :hover{
-    cursor: pointer;
-    border-radius: 50%;
 }
 
 @media all and (max-width: 1024px) and (min-width: 640px) {
@@ -500,6 +507,15 @@ html, body {
     }
 }
 
+@media all and (max-width: 915px) {
+    .skill-grid{
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .skill-icon{
+        width: 7vw;
+    }
+}
+
 @media all and (max-width: 768px) {
     .running-bar {
         height: 13vh;
@@ -520,6 +536,12 @@ html, body {
     }
     #about-me-page {
         height: 67vh;
+    }
+    .skill-grid{
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .skill-icon{
+        width: 8vw;
     }
 }
 
@@ -656,6 +678,12 @@ html, body {
     .card > p {
         font-size: 1.5vw;
     }
+    .skill-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .skill-icon{
+        width: 9vw;
+    }
 }
 
 @media all and (max-width: 560px) {
@@ -692,6 +720,15 @@ html, body {
     }
     #about-me-page {
         height: 49vh;
+    }
+}
+
+@media all and (max-width: 515px) {
+    .skill-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .skill-icon{
+        width: 12vw;
     }
 }
 

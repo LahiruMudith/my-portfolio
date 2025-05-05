@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+<div id="slider" class="slider">
+  <div id="slide-left" class="slide">
+    <div class="slide-holder">
+      <div class="slide-bg bg-previous"></div>
+      <div class="slide-bg bg-current"></div>
+      <div class="slide-bg bg-next"></div>
+    </div>
+  </div>
+  <div id="slide-center" class="slide">
+    <div class="slide-holder">
+      <div class="slide-bg bg-previous"></div>
+      <div class="slide-bg bg-current"></div>
+      <div class="slide-bg bg-next"></div>
+    </div>
+  </div>
+  <div id="slide-right" class="slide">
+    <div class="slide-holder">
+      <div class="slide-bg bg-previous"></div>
+      <div class="slide-bg bg-current"></div>
+      <div class="slide-bg bg-next"></div>
+    </div>
+  </div>
+</div>
+<a href="#" class="arrow" id="left-arrow">
+  <i class="fa fa-arrow-circle-o-left"></i>
+</a>
+<a href="#" class="arrow" id="right-arrow">
+  <i class="fa fa-arrow-circle-o-right"></i>
+</a>
+<script src="project.js"></script>
+</body>
+</html>

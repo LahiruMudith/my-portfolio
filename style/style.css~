@@ -726,7 +726,7 @@ html, body {
 @media all and (max-width: 515px) {
     .skill-grid{
         grid-template-columns: repeat(3, 1fr);
-        height: fit-content(calc(50px));
+        height: fit-content;
     }
     .skill-icon{
         width: 12vw;

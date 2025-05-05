@@ -355,6 +355,7 @@ html, body {
     grid-template-columns: repeat(7, 1fr);
     height: 500px;
     align-items: center;
+    justify-items: center;
 }
 .ball {
     animation: float 5.0s ease-in-out infinite;

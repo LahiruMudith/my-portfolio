@@ -1,75 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Assignments</title>
   <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 </head>
 <body>
-<div class='cards-wrapper'>
-  <div class='cards'>
-    <button class='card card1' tabindex="-1">
-      <div class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 200">
-          <path d="M208 80c0-26.5 21.5-48 48-48h64c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48h-8v40h152c30.9 0 56 25.1 56 56v32h8c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48h-64c-26.5 0-48-21.5-48-48v-64c0-26.5 21.5-48 48-48h8v-32c0-4.4-3.6-8-8-8H312v40h8c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48h-64c-26.5 0-48-21.5-48-48v-64c0-26.5 21.5-48 48-48h8v-40H112c-4.4 0-8 3.6-8 8v32h8c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48v-64c0-26.5 21.5-48 48-48h8v-32c0-30.9 25.1-56 56-56h152v-40h-8c-26.5 0-48-21.5-48-48V80z"/>
-        </svg>
-      </div>
-      <h2>Card 1</h2>
-      <h4>Lorem</h4>
-    </button>
 
-    <button class='card card2' tabindex="-1">
-      <div class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 200">
-          <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2s-6.3 25.5 4.1 33.7l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L477.4 348.9c1.7-9.4 2.6-19 2.6-28.9h64c17.7 0 32-14.3 32-32s-14.3-32-32-32h-64.3c-1.1-14.1-5-27.5-11.1-39.5.7-.6 1.4-1.2 2.1-1.9l64-64c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-64 64c-.7.7-1.3 1.4-1.9 2.1-14.3-7.3-30.4-11.4-47.5-11.4H264c-8.3 0-16.3 1-24 2.8L38.8 5.1zM320 0c-53 0-96 43-96 96v3.6c0 15.7 12.7 28.4 28.4 28.4h135.2c15.7 0 28.4-12.7 28.4-28.4V96c0-53-43-96-96-96zM160.3 256H96c-17.7 0-32 14.3-32 32s14.3 32 32 32h64c0 24.6 5.5 47.8 15.4 68.6-2.2 1.3-4.2 2.9-6 4.8l-64 64c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l63.1-63.1a159.2 159.2 0 0 0 90.3 39.6V335.5L166.7 227.3c-3.4 9-5.6 18.7-6.4 28.7zM336 479.2c36.6-3.6 69.7-19.6 94.8-43.8L336 360.7v118.5z"/>
-        </svg>
-      </div>
-      <h2>Card 2</h2>
-      <h4>Ipsum</h4>
-    </button>
+<section class="Am-img-slider-container">
+  <div class="swiper blog-slider">
+    <div class="swiper-wrapper">
+      <!-- slide -->
+      <div class="swiper-slide">
+        <div class="blog-slider__imgs">
+          <img class="back-image" alt=""
+               src="../../assets/images/projectImages/fitnessCenterBackImage.jpg" />
+          <div class="movie-image-container">
 
-    <button class='card card3' tabindex="-1">
-      <div class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 200">
-          <path d="M308.5 135.3a22 22 0 0 0 6.2-25 171 171 0 0 0-7.6-15.5l-3.1-5.4c-3-5-6.3-9.9-9.8-14.6a22 22 0 0 0-24.7-7.1L241.3 77c-10.7-8.8-23-16-36.2-20.9l-6.1-29a21.9 21.9 0 0 0-18.5-17.8c-6.6-.9-13.3-1.3-20.1-1.3h-.7c-6.8 0-13.5.4-20.1 1.2A22 22 0 0 0 121.1 27L115 56.1c-13.3 5-25.5 12.1-36.2 20.9l-28.3-9.2c-9-3-19-.5-24.7 7.1-3.5 4.7-6.8 9.6-9.9 14.6l-3 5.3c-2.8 5-5.3 10.2-7.6 15.6a22.1 22.1 0 0 0 6.2 25l22.2 19.8a128.8 128.8 0 0 0 0 41.7l-22.2 19.8a22 22 0 0 0-6.2 25 187 187 0 0 0 7.6 15.6l3 5.2c3 5.1 6.3 9.9 9.9 14.6a22 22 0 0 0 24.7 7.1l28.2-9.3c10.7 8.8 23 16 36.2 20.9l6.1 29.1a21.9 21.9 0 0 0 18.5 17.8 172 172 0 0 0 40.8 0 22 22 0 0 0 18.5-17.8l6.1-29.1c13.3-5 25.5-12.1 36.2-20.9l28.2 9.3c9 3 19 .5 24.7-7.1 3.5-4.7 6.8-9.5 9.8-14.6l3.1-5.4a171 171 0 0 0 7.6-15.5c3.7-8.7.9-18.6-6.2-25l-22.2-19.8a131 131 0 0 0 0-41.8l22.2-19.8zM112 176a48 48 0 1 1 96 0 48 48 0 1 1-96 0zm392.7 324.5a22 22 0 0 0 25 6.2 171 171 0 0 0 15.5-7.6l5.4-3.1c5-3 9.9-6.3 14.6-9.8a22 22 0 0 0 7.1-24.7l-9.3-28.2c8.8-10.7 16-23 20.9-36.2L613 391a21.9 21.9 0 0 0 17.8-18.5 172 172 0 0 0 0-40.8 22 22 0 0 0-17.8-18.5l-29.1-6.2c-5-13.3-12.1-25.5-20.9-36.2l9.3-28.2c3-9 .5-19-7.1-24.7-4.7-3.5-9.6-6.8-14.6-9.9l-5.3-3c-5-2.8-10.2-5.3-15.6-7.6a22.1 22.1 0 0 0-25 6.2l-19.8 22.2a131 131 0 0 0-41.8 0l-19.8-22.2a22 22 0 0 0-25-6.2 187 187 0 0 0-15.6 7.6l-5.2 3a144 144 0 0 0-14.6 9.9 22 22 0 0 0-7.1 24.7l9.3 28.2c-8.8 10.7-16 23-20.9 36.2l-29.1 6a21.9 21.9 0 0 0-17.8 18.5 172 172 0 0 0 0 40.8 22 22 0 0 0 17.8 18.5l29.1 6.1c5 13.3 12.1 25.5 20.9 36.2l-9.3 28.2c-3 9-.5 19 7.1 24.7 4.7 3.5 9.5 6.8 14.6 9.8l5.4 3.1a171 171 0 0 0 15.5 7.6c8.7 3.7 18.6.9 25-6.2l19.8-22.2a131 131 0 0 0 41.8 0l19.8 22.2zM464 304a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
-        </svg>
+            <img class="movie-image  blog-slider__img" alt=""
+                 src="../../assets/images/projectImages/fitnessCenterFrontImage.png" />
+            <div class="overly">
+              <a href="https://github.com/LahiruMudith/1st-sem-final-project.git" title="go to github" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48" id="github">
+                  <rect width="48" height="48" fill="#000" rx="24"></rect>
+                  <path fill="#ffffff" fill-rule="evenodd" d="M31.4225 46.8287C29.0849 47.589 26.5901 48 24 48C21.4081 48 18.9118 47.5884 16.5728 46.8272C17.6533 46.9567 18.0525 46.2532 18.0525 45.6458C18.0525 45.3814 18.048 44.915 18.0419 44.2911C18.035 43.5692 18.0259 42.6364 18.0195 41.5615C11.343 43.0129 9.9345 38.3418 9.9345 38.3418C8.844 35.568 7.2705 34.8294 7.2705 34.8294C5.091 33.3388 7.4355 33.369 7.4355 33.369C9.843 33.5387 11.1105 35.8442 11.1105 35.8442C13.2525 39.5144 16.728 38.4547 18.096 37.8391C18.3135 36.2871 18.9345 35.2286 19.62 34.6283C14.2905 34.022 8.688 31.9625 8.688 22.7597C8.688 20.1373 9.6225 17.994 11.1585 16.3142C10.911 15.7065 10.0875 13.2657 11.3925 9.95888C11.3925 9.95888 13.4085 9.31336 17.9925 12.4206C19.908 11.8876 21.96 11.6222 24.0015 11.6114C26.04 11.6218 28.0935 11.8876 30.0105 12.4206C34.5915 9.31336 36.603 9.95888 36.603 9.95888C37.9125 13.2657 37.089 15.7065 36.8415 16.3142C38.3805 17.994 39.309 20.1373 39.309 22.7597C39.309 31.9849 33.6975 34.0161 28.3515 34.6104C29.2125 35.3519 29.9805 36.8168 29.9805 39.058C29.9805 41.2049 29.9671 43.0739 29.9582 44.3125C29.9538 44.9261 29.9505 45.385 29.9505 45.6462C29.9505 46.2564 30.3401 46.9613 31.4225 46.8287Z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="blog-slider__content">
+          <h2 class="blog-slider__title">
+            Fitness Center Management System
+          </h2>
+          <p class="blog-slider__text">
+            This system can manage members, schedules, diet plans, and employees. It can mark member fees, send email confirmations, and view payment, schedule, and diet plan reports. Member phone numbers and email addresses are validated.
+          </p>
+          <span class="blog-slider__rate">JavaFx</span>
+        </div>
       </div>
-      <h2>Card 3</h2>
-      <h4>dolor</h4>
-    </button>
+      <div class="swiper-slide">
+        <div class="blog-slider__imgs">
+          <img class="back-image" alt=""
+               src="../../assets/images/projectImages/mindBalanceCenterBackImage.jpg" />
+          <div class="movie-image-container">
 
-    <button class='card card4' tabindex="-1">
-      <div class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 200">
-          <path d="M176 24a24 24 0 1 0-48 0v40a64 64 0 0 0-64 64H24a24 24 0 1 0 0 48h40v56H24a24 24 0 1 0 0 48h40v56H24a24 24 0 1 0 0 48h40a64 64 0 0 0 64 64v40a24 24 0 1 0 48 0v-40h56v40a24 24 0 1 0 48 0v-40h56v40a24 24 0 1 0 48 0v-40a64 64 0 0 0 64-64h40a24 24 0 1 0 0-48h-40v-56h40a24 24 0 1 0 0-48h-40v-56h40a24 24 0 1 0 0-48h-40a64 64 0 0 0-64-64V24a24 24 0 1 0-48 0v40h-56V24a24 24 0 1 0-48 0v40h-56V24zm-16 104h192a32 32 0 0 1 32 32v192a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V160a32 32 0 0 1 32-32zm192 32H160v192h192V160z"/>
-        </svg>
+            <img class="movie-image  blog-slider__img" alt=""
+                 src="../../assets/images/projectImages/mindBalanceCenterFrontImage.jpg" />
+            <div class="overly">
+              <a href="https://github.com/LahiruMudith/mind-balance-center.git" title="go to github" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48" id="github">
+                  <rect width="48" height="48" fill="#000" rx="24"></rect>
+                  <path fill="#ffffff" fill-rule="evenodd" d="M31.4225 46.8287C29.0849 47.589 26.5901 48 24 48C21.4081 48 18.9118 47.5884 16.5728 46.8272C17.6533 46.9567 18.0525 46.2532 18.0525 45.6458C18.0525 45.3814 18.048 44.915 18.0419 44.2911C18.035 43.5692 18.0259 42.6364 18.0195 41.5615C11.343 43.0129 9.9345 38.3418 9.9345 38.3418C8.844 35.568 7.2705 34.8294 7.2705 34.8294C5.091 33.3388 7.4355 33.369 7.4355 33.369C9.843 33.5387 11.1105 35.8442 11.1105 35.8442C13.2525 39.5144 16.728 38.4547 18.096 37.8391C18.3135 36.2871 18.9345 35.2286 19.62 34.6283C14.2905 34.022 8.688 31.9625 8.688 22.7597C8.688 20.1373 9.6225 17.994 11.1585 16.3142C10.911 15.7065 10.0875 13.2657 11.3925 9.95888C11.3925 9.95888 13.4085 9.31336 17.9925 12.4206C19.908 11.8876 21.96 11.6222 24.0015 11.6114C26.04 11.6218 28.0935 11.8876 30.0105 12.4206C34.5915 9.31336 36.603 9.95888 36.603 9.95888C37.9125 13.2657 37.089 15.7065 36.8415 16.3142C38.3805 17.994 39.309 20.1373 39.309 22.7597C39.309 31.9849 33.6975 34.0161 28.3515 34.6104C29.2125 35.3519 29.9805 36.8168 29.9805 39.058C29.9805 41.2049 29.9671 43.0739 29.9582 44.3125C29.9538 44.9261 29.9505 45.385 29.9505 45.6462C29.9505 46.2564 30.3401 46.9613 31.4225 46.8287Z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="blog-slider__content">
+          <h2 class="blog-slider__title">
+            Therapy Center Management System
+          </h2>
+          <p class="blog-slider__text">
+            This system can manage members, schedules, diet plans, and employees. It can mark member fees, send email confirmations, and view payment, schedule, and diet plan reports. Member phone numbers and email addresses are validated.
+          </p>
+          <span class="blog-slider__rate">JavaFx</span>
+        </div>
       </div>
-      <h2>Card 4</h2>
-      <h4>sit amet</h4>
-    </button>
+      <div class="swiper-slide">
+        <div class="blog-slider__imgs">
+          <img class="back-image" alt=""
+               src="../../assets/images/projectImages/Maths-Class-Fee-Mark-Applicaiton-Back-Image.jpg" />
+          <div class="movie-image-container">
 
-    <button class='card card5' tabindex="-1">
-      <div class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 200">
-          <path d="M418.4 157.9A80 80 0 1 0 320 77.5l-183.8 73.6a80 80 0 1 0-22.1 129.3l145.6 127.4a80 80 0 1 0 120.9-42.2l37.8-207.7zm-262.1 74.3a78.3 78.3 0 0 0 3.7-21.7L343.8 137c3.6 3.5 7.4 6.7 11.6 9.5l-37.8 207.6a77.8 77.8 0 0 0-15.8 5.5L156.3 232.2z"/>
-        </svg>
+            <img class="movie-image  blog-slider__img" alt=""
+                 src="../../assets/images/projectImages/Maths-Class-Fee-Mark-Applicaiton-Front-Image.jpg" />
+            <div class="overly">
+              <a href="https://github.com/LahiruMudith/MathsClassFeesMarkApp.git" title="go to github" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48" id="github">
+                  <rect width="48" height="48" fill="#000" rx="24"></rect>
+                  <path fill="#ffffff" fill-rule="evenodd" d="M31.4225 46.8287C29.0849 47.589 26.5901 48 24 48C21.4081 48 18.9118 47.5884 16.5728 46.8272C17.6533 46.9567 18.0525 46.2532 18.0525 45.6458C18.0525 45.3814 18.048 44.915 18.0419 44.2911C18.035 43.5692 18.0259 42.6364 18.0195 41.5615C11.343 43.0129 9.9345 38.3418 9.9345 38.3418C8.844 35.568 7.2705 34.8294 7.2705 34.8294C5.091 33.3388 7.4355 33.369 7.4355 33.369C9.843 33.5387 11.1105 35.8442 11.1105 35.8442C13.2525 39.5144 16.728 38.4547 18.096 37.8391C18.3135 36.2871 18.9345 35.2286 19.62 34.6283C14.2905 34.022 8.688 31.9625 8.688 22.7597C8.688 20.1373 9.6225 17.994 11.1585 16.3142C10.911 15.7065 10.0875 13.2657 11.3925 9.95888C11.3925 9.95888 13.4085 9.31336 17.9925 12.4206C19.908 11.8876 21.96 11.6222 24.0015 11.6114C26.04 11.6218 28.0935 11.8876 30.0105 12.4206C34.5915 9.31336 36.603 9.95888 36.603 9.95888C37.9125 13.2657 37.089 15.7065 36.8415 16.3142C38.3805 17.994 39.309 20.1373 39.309 22.7597C39.309 31.9849 33.6975 34.0161 28.3515 34.6104C29.2125 35.3519 29.9805 36.8168 29.9805 39.058C29.9805 41.2049 29.9671 43.0739 29.9582 44.3125C29.9538 44.9261 29.9505 45.385 29.9505 45.6462C29.9505 46.2564 30.3401 46.9613 31.4225 46.8287Z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="blog-slider__content">
+          <h2 class="blog-slider__title">
+            Maths Class Fee Mark Applicaiton
+          </h2>
+          <p class="blog-slider__text">
+            This application can manage students, mark fees and work, and copy messages to the clipboard indicating whether a student's homework is done or not. It is a simple application created using JavaFX.          </p>
+          <span class="blog-slider__rate">JavaFx</span>
+        </div>
       </div>
-      <h2>Card 5</h2>
-      <h4>consectetur</h4>
-    </button>
+      <div class="swiper-slide">
+        <div class="blog-slider__imgs">
+          <img class="back-image" alt=""
+               src="../../assets/images/projectImages/lahiruMotorsBackImage.jpg" />
+          <div class="movie-image-container">
 
+            <img class="movie-image  blog-slider__img" alt=""
+                 src="../../assets/images/projectImages/lahiruMotorsFrontImage.jpg" />
+            <div class="overly">
+              <a href="https://github.com/LahiruMudith/apjd-final-project.git" title="go to github" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48" id="github">
+                  <rect width="48" height="48" fill="#000" rx="24"></rect>
+                  <path fill="#ffffff" fill-rule="evenodd" d="M31.4225 46.8287C29.0849 47.589 26.5901 48 24 48C21.4081 48 18.9118 47.5884 16.5728 46.8272C17.6533 46.9567 18.0525 46.2532 18.0525 45.6458C18.0525 45.3814 18.048 44.915 18.0419 44.2911C18.035 43.5692 18.0259 42.6364 18.0195 41.5615C11.343 43.0129 9.9345 38.3418 9.9345 38.3418C8.844 35.568 7.2705 34.8294 7.2705 34.8294C5.091 33.3388 7.4355 33.369 7.4355 33.369C9.843 33.5387 11.1105 35.8442 11.1105 35.8442C13.2525 39.5144 16.728 38.4547 18.096 37.8391C18.3135 36.2871 18.9345 35.2286 19.62 34.6283C14.2905 34.022 8.688 31.9625 8.688 22.7597C8.688 20.1373 9.6225 17.994 11.1585 16.3142C10.911 15.7065 10.0875 13.2657 11.3925 9.95888C11.3925 9.95888 13.4085 9.31336 17.9925 12.4206C19.908 11.8876 21.96 11.6222 24.0015 11.6114C26.04 11.6218 28.0935 11.8876 30.0105 12.4206C34.5915 9.31336 36.603 9.95888 36.603 9.95888C37.9125 13.2657 37.089 15.7065 36.8415 16.3142C38.3805 17.994 39.309 20.1373 39.309 22.7597C39.309 31.9849 33.6975 34.0161 28.3515 34.6104C29.2125 35.3519 29.9805 36.8168 29.9805 39.058C29.9805 41.2049 29.9671 43.0739 29.9582 44.3125C29.9538 44.9261 29.9505 45.385 29.9505 45.6462C29.9505 46.2564 30.3401 46.9613 31.4225 46.8287Z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="blog-slider__content">
+          <h2 class="blog-slider__title">
+            Vehicle Rental System
+          </h2>
+          <p class="blog-slider__text">
+            This application allows you to manage customers and vehicles, handle vehicle rentals, and close rental transactions.          </p>
+          <span class="blog-slider__rate">JavaFx</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="blog-slider__imgs">
+          <img class="back-image" alt=""
+               src="../../assets/images/projectImages/nicValidationBackImage.jpg" />
+          <div class="movie-image-container">
+
+            <img class="movie-image  blog-slider__img" alt=""
+                 src="../../assets/images/projectImages/nicValidationFrontImage.jpg" />
+            <div class="overly">
+              <a href="https://github.com/LahiruMudith/apwd-nic-project.git" title="go to github" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48" id="github">
+                  <rect width="48" height="48" fill="#000" rx="24"></rect>
+                  <path fill="#ffffff" fill-rule="evenodd" d="M31.4225 46.8287C29.0849 47.589 26.5901 48 24 48C21.4081 48 18.9118 47.5884 16.5728 46.8272C17.6533 46.9567 18.0525 46.2532 18.0525 45.6458C18.0525 45.3814 18.048 44.915 18.0419 44.2911C18.035 43.5692 18.0259 42.6364 18.0195 41.5615C11.343 43.0129 9.9345 38.3418 9.9345 38.3418C8.844 35.568 7.2705 34.8294 7.2705 34.8294C5.091 33.3388 7.4355 33.369 7.4355 33.369C9.843 33.5387 11.1105 35.8442 11.1105 35.8442C13.2525 39.5144 16.728 38.4547 18.096 37.8391C18.3135 36.2871 18.9345 35.2286 19.62 34.6283C14.2905 34.022 8.688 31.9625 8.688 22.7597C8.688 20.1373 9.6225 17.994 11.1585 16.3142C10.911 15.7065 10.0875 13.2657 11.3925 9.95888C11.3925 9.95888 13.4085 9.31336 17.9925 12.4206C19.908 11.8876 21.96 11.6222 24.0015 11.6114C26.04 11.6218 28.0935 11.8876 30.0105 12.4206C34.5915 9.31336 36.603 9.95888 36.603 9.95888C37.9125 13.2657 37.089 15.7065 36.8415 16.3142C38.3805 17.994 39.309 20.1373 39.309 22.7597C39.309 31.9849 33.6975 34.0161 28.3515 34.6104C29.2125 35.3519 29.9805 36.8168 29.9805 39.058C29.9805 41.2049 29.9671 43.0739 29.9582 44.3125C29.9538 44.9261 29.9505 45.385 29.9505 45.6462C29.9505 46.2564 30.3401 46.9613 31.4225 46.8287Z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="blog-slider__content">
+          <h2 class="blog-slider__title">
+            Sri Lanka Nic Validation System
+          </h2>
+          <p class="blog-slider__text">
+            Sri Lankan NIC validator with support for old NIC formats, showing the person’s birthday and gender.
+          </p>
+          <span class="blog-slider__rate">React + Vite</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="blog-slider__imgs">
+          <img class="back-image" alt=""
+               src="../../assets/images/projectImages/libraryManagementBackImage.jpg" />
+          <div class="movie-image-container">
+
+            <img class="movie-image  blog-slider__img" alt=""
+                 src="../../assets/images/projectImages/libraryManagementFrontImage.png" />
+            <div class="overly">
+              <a href="https://github.com/LahiruMudith/apjd-library-project.git" title="go to github" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48" id="github">
+                  <rect width="48" height="48" fill="#000" rx="24"></rect>
+                  <path fill="#ffffff" fill-rule="evenodd" d="M31.4225 46.8287C29.0849 47.589 26.5901 48 24 48C21.4081 48 18.9118 47.5884 16.5728 46.8272C17.6533 46.9567 18.0525 46.2532 18.0525 45.6458C18.0525 45.3814 18.048 44.915 18.0419 44.2911C18.035 43.5692 18.0259 42.6364 18.0195 41.5615C11.343 43.0129 9.9345 38.3418 9.9345 38.3418C8.844 35.568 7.2705 34.8294 7.2705 34.8294C5.091 33.3388 7.4355 33.369 7.4355 33.369C9.843 33.5387 11.1105 35.8442 11.1105 35.8442C13.2525 39.5144 16.728 38.4547 18.096 37.8391C18.3135 36.2871 18.9345 35.2286 19.62 34.6283C14.2905 34.022 8.688 31.9625 8.688 22.7597C8.688 20.1373 9.6225 17.994 11.1585 16.3142C10.911 15.7065 10.0875 13.2657 11.3925 9.95888C11.3925 9.95888 13.4085 9.31336 17.9925 12.4206C19.908 11.8876 21.96 11.6222 24.0015 11.6114C26.04 11.6218 28.0935 11.8876 30.0105 12.4206C34.5915 9.31336 36.603 9.95888 36.603 9.95888C37.9125 13.2657 37.089 15.7065 36.8415 16.3142C38.3805 17.994 39.309 20.1373 39.309 22.7597C39.309 31.9849 33.6975 34.0161 28.3515 34.6104C29.2125 35.3519 29.9805 36.8168 29.9805 39.058C29.9805 41.2049 29.9671 43.0739 29.9582 44.3125C29.9538 44.9261 29.9505 45.385 29.9505 45.6462C29.9505 46.2564 30.3401 46.9613 31.4225 46.8287Z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="blog-slider__content">
+          <h2 class="blog-slider__title">
+            Library Management System
+          </h2>
+          <p class="blog-slider__text">
+            With this application, you can easily manage books, students, and book transactions.
+          </p>
+          <span class="blog-slider__rate">JavaFx</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="blog-slider__imgs">
+          <img class="back-image" alt=""
+               src="../../assets/images/projectImages/commercalBankCloneSiteBackImage.jpg" />
+          <div class="movie-image-container">
+
+            <img class="movie-image  blog-slider__img" alt=""
+                 src="../../assets/images/projectImages/commercalBankCloneSiteFrontImage.jpg" />
+            <div class="overly">
+              <a href="https://github.com/LahiruMudith/new-apwd-secound-project.git" title="go to github" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48" id="github">
+                  <rect width="48" height="48" fill="#000" rx="24"></rect>
+                  <path fill="#ffffff" fill-rule="evenodd" d="M31.4225 46.8287C29.0849 47.589 26.5901 48 24 48C21.4081 48 18.9118 47.5884 16.5728 46.8272C17.6533 46.9567 18.0525 46.2532 18.0525 45.6458C18.0525 45.3814 18.048 44.915 18.0419 44.2911C18.035 43.5692 18.0259 42.6364 18.0195 41.5615C11.343 43.0129 9.9345 38.3418 9.9345 38.3418C8.844 35.568 7.2705 34.8294 7.2705 34.8294C5.091 33.3388 7.4355 33.369 7.4355 33.369C9.843 33.5387 11.1105 35.8442 11.1105 35.8442C13.2525 39.5144 16.728 38.4547 18.096 37.8391C18.3135 36.2871 18.9345 35.2286 19.62 34.6283C14.2905 34.022 8.688 31.9625 8.688 22.7597C8.688 20.1373 9.6225 17.994 11.1585 16.3142C10.911 15.7065 10.0875 13.2657 11.3925 9.95888C11.3925 9.95888 13.4085 9.31336 17.9925 12.4206C19.908 11.8876 21.96 11.6222 24.0015 11.6114C26.04 11.6218 28.0935 11.8876 30.0105 12.4206C34.5915 9.31336 36.603 9.95888 36.603 9.95888C37.9125 13.2657 37.089 15.7065 36.8415 16.3142C38.3805 17.994 39.309 20.1373 39.309 22.7597C39.309 31.9849 33.6975 34.0161 28.3515 34.6104C29.2125 35.3519 29.9805 36.8168 29.9805 39.058C29.9805 41.2049 29.9671 43.0739 29.9582 44.3125C29.9538 44.9261 29.9505 45.385 29.9505 45.6462C29.9505 46.2564 30.3401 46.9613 31.4225 46.8287Z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="blog-slider__content">
+          <h2 class="blog-slider__title">
+            Sri Lanka Commercial Bank Web Site Clone
+          </h2>
+          <p class="blog-slider__text">
+            Im Create in sri lanka <a href="https://www.combank.lk/" target="_blank">commercial bank</a> website clone using HTML, CSS, and JavaScript and use by css bootsrap frame work.
+          </p>
+          <span class="blog-slider__rate">Bootstrap</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="blog-slider__imgs">
+          <img class="back-image" alt=""
+               src="../../assets/images/projectImages/ticTacToeBackImage.jpg" />
+          <div class="movie-image-container">
+
+            <img class="movie-image  blog-slider__img" alt=""
+                 src="../../assets/images/projectImages/ticTacToeFrontImage.png" />
+            <div class="overly">
+              <a href="https://github.com/LahiruMudith/Tic-Tac-Toe.git" title="go to github" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48" id="github">
+                  <rect width="48" height="48" fill="#000" rx="24"></rect>
+                  <path fill="#ffffff" fill-rule="evenodd" d="M31.4225 46.8287C29.0849 47.589 26.5901 48 24 48C21.4081 48 18.9118 47.5884 16.5728 46.8272C17.6533 46.9567 18.0525 46.2532 18.0525 45.6458C18.0525 45.3814 18.048 44.915 18.0419 44.2911C18.035 43.5692 18.0259 42.6364 18.0195 41.5615C11.343 43.0129 9.9345 38.3418 9.9345 38.3418C8.844 35.568 7.2705 34.8294 7.2705 34.8294C5.091 33.3388 7.4355 33.369 7.4355 33.369C9.843 33.5387 11.1105 35.8442 11.1105 35.8442C13.2525 39.5144 16.728 38.4547 18.096 37.8391C18.3135 36.2871 18.9345 35.2286 19.62 34.6283C14.2905 34.022 8.688 31.9625 8.688 22.7597C8.688 20.1373 9.6225 17.994 11.1585 16.3142C10.911 15.7065 10.0875 13.2657 11.3925 9.95888C11.3925 9.95888 13.4085 9.31336 17.9925 12.4206C19.908 11.8876 21.96 11.6222 24.0015 11.6114C26.04 11.6218 28.0935 11.8876 30.0105 12.4206C34.5915 9.31336 36.603 9.95888 36.603 9.95888C37.9125 13.2657 37.089 15.7065 36.8415 16.3142C38.3805 17.994 39.309 20.1373 39.309 22.7597C39.309 31.9849 33.6975 34.0161 28.3515 34.6104C29.2125 35.3519 29.9805 36.8168 29.9805 39.058C29.9805 41.2049 29.9671 43.0739 29.9582 44.3125C29.9538 44.9261 29.9505 45.385 29.9505 45.6462C29.9505 46.2564 30.3401 46.9613 31.4225 46.8287Z" clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="blog-slider__content">
+          <h2 class="blog-slider__title">
+            Tic Tac Toe Game
+          </h2>
+          <p class="blog-slider__text">
+            This game is a simple tic-tac-toe game that can be played by two players: one human player and one computer player.
+          </p>
+          <span class="blog-slider__rate">Java</span>
+        </div>
+      </div>
+    </div>
+<!--    <div class="swiper-pagination"></div>-->
   </div>
-  <button class="arrow-btn arrow-btn-prev" tabindex="0">
-    <svg viewBox="0 0 256 512">
-      <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
-    </svg>
-  </button>
-  <button class="arrow-btn arrow-btn-next" tabindex="0">
-    <svg viewBox="0 0 256 512">
-      <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
-    </svg>
-  </button>
-</div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script src="project.js"></script>
 </body>
 </html>

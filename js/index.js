@@ -99,7 +99,7 @@ var swiper = new Swiper(".blog-slider", {
         invert: false,
     },
     autoplay: {
-        delay: 5000,
+        delay: 500000,
     },
     breakpoints: {
         0: {

@@ -8,6 +8,7 @@ body{
     margin: 0;
     /*background-color:  var(--bg-color);*/
     overflow-x: hidden;
+    color: white;
 }
 html{
     overflow-x: hidden;
@@ -386,11 +387,6 @@ html, body {
         transform: translatey(0px);
     }
 }
-/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-body {
-    background-color: #1a1a1a;
-    color: white;
-}
 
 .Am-img-slider-container {
     width: 100%;
@@ -567,30 +563,6 @@ body {
     opacity: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media all and (max-width: 1070px) {
     .card-set > div:nth-child(1) > img {
         width: 9vw;
@@ -746,6 +718,16 @@ body {
     }
     .skill-icon{
         width: 8vw;
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    .Am-img-slider-container .blog-slider .swiper-slide {
+        width: 40% !important;
+        height: 100%;
+        padding: 20px;
+        display: flex
+    ;
+        flex-direction: row;
+        align-items: stretch;
     }
 }
 

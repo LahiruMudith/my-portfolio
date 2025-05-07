@@ -1077,4 +1077,12 @@ html, body {
         display: flex;
         align-items: center;
     }
+    .Am-img-slider-container .blog-slider .swiper-slide {
+        height: 60%;
+    }
+    .Am-img-slider-container .blog-slider .swiper-slide.swiper-slide-active .blog-slider__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }

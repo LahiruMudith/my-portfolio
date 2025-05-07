@@ -1073,8 +1073,15 @@ html, body {
     .Am-img-slider-container .blog-slider .swiper-slide.swiper-slide-active .blog-slider__imgs img.back-image:nth-child(n + 1) {
         height: 65vh;
     }
-    .swiper{
+    .blog-slider__imgs{
         display: flex;
         align-items: center;
+    }
+    .Am-img-slider-container .blog-slider .swiper-slide {
+        height: 60%;
+    }
+    .Am-img-slider-container .blog-slider .swiper-slide.swiper-slide-active .blog-slider__content {
+        position: relative;
+        margin-left: 15px;
     }
 }

@@ -1081,6 +1081,7 @@ html, body {
         height: 60%;
     }
     .Am-img-slider-container .blog-slider .swiper-slide.swiper-slide-active .blog-slider__content {
+        height: 60vh;
         display: flex;
         flex-direction: column;
         justify-content: center;

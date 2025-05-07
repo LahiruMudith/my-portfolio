@@ -1086,4 +1086,7 @@ html, body {
         flex-direction: column;
         justify-content: center;
     }
+    .Am-img-slider-container .blog-slider .swiper-slide .back-image {
+        height: 95%;
+    }
 }

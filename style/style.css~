@@ -1078,7 +1078,7 @@ html, body {
         align-items: center;
     }
     .Am-img-slider-container .blog-slider .swiper-slide {
-        height: 60%;
+        height: 95%;
     }
     .Am-img-slider-container .blog-slider .swiper-slide.swiper-slide-active .blog-slider__content {
         height: 60vh;
@@ -1086,4 +1086,16 @@ html, body {
         flex-direction: column;
         justify-content: center;
     }
+    .Am-img-slider-container .blog-slider .swiper-slide .back-image
+    Specificity: (0,4,0) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    filter: blur(3px) brightness(50%);
+}
 }

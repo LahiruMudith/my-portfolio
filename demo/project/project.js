@@ -1,5 +1,5 @@
 var swiper = new Swiper(".blog-slider", {
-    loop: false,
+    loop: true,
     slidesPerView: "1",
     speed: 500,
     effect: "coverflow",
@@ -10,7 +10,7 @@ var swiper = new Swiper(".blog-slider", {
         invert: false,
     },
     autoplay: {
-        delay: 300000000,
+        delay: 3000,
     },
     breakpoints: {
         0: {

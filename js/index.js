@@ -3,7 +3,7 @@ window.requestAnimFrame = (function(){   return  window.requestAnimationFrame})(
 var canvas = document.getElementById("space");
 var c = canvas.getContext("2d");
 
-var numStars = 3000;
+var numStars = 5000;
 var radius = '0.'+Math.floor(Math.random() * 9) + 1  ;
 var focalLength = canvas.width *2;
 var warp = 0;
@@ -89,9 +89,10 @@ executeFrame();
 
 var swiper = new Swiper(".blog-slider", {
     loop: false,
-    slidesPerView: "1",
+    slidesPerView: "auto",
     speed: 500,
     effect: "coverflow",
+    centeredSlides: true,
     coverflowEffect: {
         slideShadows: false,
     },
@@ -104,14 +105,12 @@ var swiper = new Swiper(".blog-slider", {
     breakpoints: {
         0: {
             effect: "slide",
-            centeredSlides: false,
+            centeredSlides: true,
         },
         768: {
-            slidesPerView: "2",
             centeredSlides: true,
         },
         1200: {
-            slidesPerView: "3",
             centeredSlides: true,
         }
     },
@@ -120,5 +119,4 @@ var swiper = new Swiper(".blog-slider", {
         clickable: true,
         type: "fraction"
     },
-
 });

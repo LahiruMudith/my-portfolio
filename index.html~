@@ -208,11 +208,11 @@
                 </div>
             </section>
             <section class="Am-img-slider-container">
-                <div class="swiper blog-slider">
+                <div class="swiper blog-slider" style="width: 10px">
                     <div class="swiper-wrapper">
                         <!-- slide -->
                         <div class="swiper-slide">
-                            <div class="">
+                            <div class="blog-slider__imgs">
                                 <img class="back-image" alt=""
                                      src="../../assets/images/projectImages/fitnessCenterBackImage.jpg" />
                                 <div class="movie-image-container">

@@ -1078,7 +1078,7 @@ html, body {
         align-items: center;
     }
     .Am-img-slider-container .blog-slider .swiper-slide {
-        height: 60%;
+        height: 95%;
     }
     .Am-img-slider-container .blog-slider .swiper-slide.swiper-slide-active .blog-slider__content {
         height: 60vh;

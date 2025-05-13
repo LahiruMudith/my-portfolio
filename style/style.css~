@@ -694,6 +694,30 @@ html, body {
     width: 30px;
 }
 
+.contact-link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#footer{
+    width: 100%;
+    position: relative;
+    background-color: rgba(17, 17, 17, 0.65);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon{
+    width: 60px;
+    margin: 5px;
+}
+#copyright-message{
+    font-family: cursive;
+}
+
 
 
 /*/////////////////////////////////////////////////////Media Queries///////////////////////////////////////////////////////*/
@@ -892,6 +916,14 @@ html, body {
     }
     .contact-circle > img{
         width: 4vw;
+    }
+    .footer-icon{
+        width: 6vw;
+        margin: 5px;
+    }
+    #copyright-message{
+        font-family: cursive;
+        font-size: 13px;
     }
 }
 
@@ -1095,6 +1127,10 @@ html, body {
     #about-me-page {
         height: 49vh;
     }
+    #copyright-message{
+        font-family: cursive;
+        font-size: 11px;
+    }
 }
 
 @media all and (max-width: 515px) {
@@ -1104,6 +1140,15 @@ html, body {
     }
     .skill-icon{
         width: 12vw;
+    }
+}
+
+@media all and (max-width: 480px){
+    .footer-icon{
+        width: 8vw;
+    }
+    #copyright-message{
+        font-size: 11px;
     }
 }
 
@@ -1232,7 +1277,7 @@ html, body {
         width: 6vw;
     }
     #contact-section {
-        height: 700px;
+        height: 760px;
     }
     #contact-form {
         height: 520px;

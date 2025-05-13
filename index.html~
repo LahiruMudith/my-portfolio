@@ -23,7 +23,7 @@
     </head>
     <body>
     <!--bg animation-->
-        <div id='w' style="padding-bottom: 10vh">
+        <div id='w' >
             <canvas id="space"></canvas>
             <a href="#" id="warp"></a>
 
@@ -445,19 +445,19 @@
                         <div class="contact-circle">
                             <img src="assets/images/icon/call-me.png" alt="call me icon">
                         </div>
-                        076 129 8256
+                        <a class="contact-link" href="tel:+94761298256" target="_blank">076 129 8256</a>
                     </div>
                     <div>
                         <div class="contact-circle">
-                            <img src="assets/images/icon/call-me.png" alt="call me icon">
+                            <img src="assets/images/icon/address.png" alt="address icon">
                         </div>
-                        Moronthuduwa, Sri Lanka.
+                        <p><a class="contact-link" href="https://maps.app.goo.gl/LSnJ2HyhtRSHiU3i7" target="_blank">Moronthuduwa, Sri Lanka.</a></p>
                     </div>
                     <div>
                         <div class="contact-circle">
-                            <img src="assets/images/icon/call-me.png" alt="call me icon">
+                            <img src="assets/images/icon/email.png" alt="email icon">
                         </div>
-                        lahimudith@gmail.com
+                        <p><a class="contact-link" href="mailto:lahimudith@gmail.com" target="_blank">lahimudith@gmail.com</a></p>
                     </div>
 
                 </div>
@@ -468,6 +468,17 @@
                     <button type="submit" id="btn-get-in-touch">Get in Touch</button>
                 </form>
             </section>
+            <!--    footer section-->
+            <footer id="footer">
+                <div>
+                    <a target="_blank" href="https://www.facebook.com/share/1DKxM5JE3y/?mibextid=wwXIfr"><img class="footer-icon" src="assets/images/icon/fb.png" alt="fb logo"></a>
+                    <a target="_blank" href="https://wa.link/109em4"><img class="footer-icon" src="assets/images/icon/whatsapp.png" alt="whatsapp logo"></a>
+                    <a target="_blank" href="https://github.com/LahiruMudith"><img class="footer-icon" src="assets/images/icon/github.png" alt="git hub logo"></a>
+                    <a target="_blank" href="https://www.facebook.com/share/1DKxM5JE3y/?mibextid=wwXIfr"><img class="footer-icon" src="assets/images/icon/instagram-logo.png" alt="instagram logo"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/lahiru-mudith-1226b7298/"><img class="footer-icon" src="assets/images/icon/linkedin.png" alt="linkend logo"></a>
+                </div>
+                <label id="copyright-message">&copy; 2025 Lahiru Mudith — Designed with 💡 and coded with ❤️. All rights reserved.</label>
+            </footer>
         </div>
 <!--        &lt;!&ndash;Skill Page&ndash;&gt;-->
 <!--        <section id="skill-page" style="width: 100vw">-->

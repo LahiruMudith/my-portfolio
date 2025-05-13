@@ -38,7 +38,7 @@
                     <a href="#project-page" class="nav-btn">Projects</a>
                     <a href="#assignment-page" class="nav-btn">Assignments</a>
                     <a href="#gallery-page" class="nav-btn">Gallery</a>
-                    <a href="#contact-me-page" class="nav-btn">Contact me</a>
+                    <a href="#contact-section" class="nav-btn">Contact me</a>
                 </nav>
                 <img src="https://img.icons8.com/plumpy/96/b4b6b7/menu--v5.png" alt="menu" class="menu-icon"/>
             </header>
@@ -206,9 +206,10 @@
                         </a>
                     </div>
                 </div>
+<!--            project section    -->
             </section>
             <section class="Am-img-slider-container">
-                <div class="swiper blog-slider" style="width: 10px">
+                <div class="swiper blog-slider">
                     <div class="swiper-wrapper">
                         <!-- slide -->
                         <div class="swiper-slide">
@@ -436,6 +437,36 @@
                     </div>
                     <!--    <div class="swiper-pagination"></div>-->
                 </div>
+            </section>
+            <!--    contact section-->
+            <section id="contact-section">
+                <div class="contact-header">
+                    <div>
+                        <div class="contact-circle">
+                            <img src="assets/images/icon/call-me.png" alt="call me icon">
+                        </div>
+                        076 129 8256
+                    </div>
+                    <div>
+                        <div class="contact-circle">
+                            <img src="assets/images/icon/call-me.png" alt="call me icon">
+                        </div>
+                        Moronthuduwa, Sri Lanka.
+                    </div>
+                    <div>
+                        <div class="contact-circle">
+                            <img src="assets/images/icon/call-me.png" alt="call me icon">
+                        </div>
+                        lahimudith@gmail.com
+                    </div>
+
+                </div>
+                <form id="contact-form">
+                    <input id="txt-name" type="text" placeholder="Enter Your Name" required>
+                    <input id="txt-email" type="email" placeholder="Enter Your Email" required>
+                    <input id="txt-message" type="text" placeholder="Message" required>
+                    <button type="submit" id="btn-get-in-touch">Get in Touch</button>
+                </form>
             </section>
         </div>
 <!--        &lt;!&ndash;Skill Page&ndash;&gt;-->

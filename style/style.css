@@ -1,5 +1,5 @@
 :root{
-    --main-green-color: #25785E;
+    --main-green-color: rgba(37, 120, 94, 0.55);
     --font-color: #d9f0fe;
     --font-color-2: #FFFFFF;
     --bg-color: black;
@@ -394,13 +394,6 @@ html, body {
     overflow: hidden;
 }
 
-/*@media (min-width: 1200px) {*/
-/* .Am-img-slider-container {*/
-/* width: 80%;*/
-/* margin: 25px auto;*/
-/* }*/
-/*}*/
-
 .Am-img-slider-container .blog-slider .swiper-slide {
     width: 30%;
     height: 50vh;;
@@ -563,7 +556,147 @@ html, body {
 .Am-img-slider-container .blog-slider__img {
     opacity: 0;
 }
+#contact-section{
+    position: relative;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact-form{
+    width: 600px;
+    height: 320px;
+    border: 1px outset var(--font-color-2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#txt-name , #txt-email , #txt-message{
+    width: 80%;
+    height: 40px;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: transparent;
+    border: 1px solid var(--font-color-2);
+    color: white;
+}
+#txt-message{
+    height: 100px;
+}
+#btn-get-in-touch {
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+}
+#btn-get-in-touch {
+    width: fit-content;
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
 
+#btn-get-in-touch:before {
+    content: "";
+    background: linear-gradient(
+            45deg,
+            #ffffff,
+            #e6e6e6,
+            #cccccc,
+            #bfbfbf,
+            #999999,
+            #737373,
+            #595959,
+            #e6e6e6,
+            #ffffff
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#btn-get-in-touch:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+.contact-header{
+    width: 630px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.contact-header > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 13px;
+}
+
+.contact-circle{
+    width: 70px;
+    aspect-ratio: 1/1;
+    background-color: var(--main-green-color);
+    margin: 10px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-circle > img{
+    width: 30px;
+}
+
+
+
+/*/////////////////////////////////////////////////////Media Queries///////////////////////////////////////////////////////*/
 @media all and (max-width: 1212px) {
     .Am-img-slider-container .blog-slider .swiper-slide {
         width: 35%;
@@ -738,6 +871,28 @@ html, body {
     .skill-icon{
         width: 8vw;
     }
+
+    #contact-form {
+        width: 70vw;
+    }
+
+    #txt-name, #txt-email, #txt-message {
+        border-radius: 10px;
+    }
+    .contact-header{
+        width: 70vw;
+    }
+
+    .contact-header > div{
+        font-size: 13px;
+    }
+
+    .contact-circle{
+        width: 8vw;
+    }
+    .contact-circle > img{
+        width: 4vw;
+    }
 }
 
 @media all and (max-width: 1029px) {
@@ -885,6 +1040,9 @@ html, body {
     }
     .skill-icon{
         width: 9vw;
+    }
+    .contact-header > div{
+        font-size: 1.7vw;
     }
 }
 
@@ -1060,6 +1218,32 @@ html, body {
     }
     .skill-icon{
         width: 15vw;
+    }
+    .contact-header{
+        flex-direction: column;
+    }
+    .contact-header > div {
+        font-size: 2.8vw;
+    }
+    .contact-circle {
+        width: 15vw;
+    }
+    .contact-circle > img {
+        width: 6vw;
+    }
+    #contact-section {
+        height: 700px;
+    }
+    #contact-form {
+        height: 520px;
+    }
+    #txt-name, #txt-email{
+        height: 48px;
+        margin: 10px;
+    }
+    #txt-message{
+        height: 100px;
+        margin: 10px;
     }
 }
 

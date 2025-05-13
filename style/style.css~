@@ -663,6 +663,10 @@ html, body {
     border-radius: 10px;
 }
 
+#contact-section{
+    margin-bottom: 10px;
+}
+
 .contact-header{
     width: 630px;
     display: flex;
@@ -919,10 +923,8 @@ html, body {
     }
     .footer-icon{
         width: 6vw;
-        margin: 5px;
     }
     #copyright-message{
-        font-family: cursive;
         font-size: 13px;
     }
 }
@@ -930,7 +932,6 @@ html, body {
 @media all and (max-width: 1029px) {
     .Am-img-slider-container .blog-slider .swiper-slide {
         width: 60%;
-
     }
 }
 
@@ -1128,7 +1129,6 @@ html, body {
         height: 49vh;
     }
     #copyright-message{
-        font-family: cursive;
         font-size: 11px;
     }
 }
@@ -1148,7 +1148,7 @@ html, body {
         width: 8vw;
     }
     #copyright-message{
-        font-size: 11px;
+        font-size: 2vw;
     }
 }
 

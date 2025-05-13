@@ -1151,6 +1151,9 @@ html, body {
     #copyright-message{
         font-size: 2vw;
     }
+    #footer {
+        height: 12vh!important;
+    }
 }
 
 @media all and (max-width: 426px){

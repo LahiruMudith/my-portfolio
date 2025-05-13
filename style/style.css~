@@ -711,7 +711,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     justify-content: end;
 }
 
@@ -1150,6 +1150,9 @@ html, body {
     }
     #copyright-message{
         font-size: 2vw;
+    }
+    #footer {
+        height: 12vh;
     }
 }
 

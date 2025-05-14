@@ -252,7 +252,7 @@ html, body {
     display: flex;
     justify-content: space-around;
     z-index: 1;
-    animation: scrollInfinite 60s linear infinite;
+    animation: scrollInfinite 50s linear infinite;
 }
 
 @keyframes scrollInfinite {

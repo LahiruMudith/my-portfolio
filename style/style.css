@@ -12,6 +12,11 @@ body{
 }
 html{
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    scrollbar-gutter: stable;
+}
+a{
+    text-decoration: none;
 }
 img[name="icon"]{
     cursor: pointer;
@@ -187,7 +192,10 @@ html, body {
     display: flex;
     justify-content: center;
 }
-#home-page-btns>button{
+#home-page-btns>a>button{
+    margin: 10px;
+}
+#home-page-btns>a>p{
     margin: 10px;
 }
 #hire-me-btn{
@@ -218,10 +226,10 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-#home-page-icons>img:nth-child(1){
+#home-page-icons>a:nth-child(1)>img{
     width: 9vh;
 }
-#home-page-icons>img:nth-child(2){
+#home-page-icons>a:nth-child(2)>img{
     width: 10vh;
 }
 #my-img{
@@ -236,7 +244,7 @@ html, body {
 
 /*runing bar css*/
 .running-bar{
-    width: 100%;
+    width: 200%;
     height: 17vh;
     margin: 2vh 0;
     background-color: var(--main-green-color);
@@ -244,7 +252,18 @@ html, body {
     display: flex;
     justify-content: space-around;
     z-index: 1;
+    animation: scrollInfinite 50s linear infinite;
 }
+
+@keyframes scrollInfinite {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-70%);
+    }
+}
+
 .runing-item{
     display: flex;
     justify-content: center;
@@ -277,6 +296,7 @@ html, body {
     align-self: center;
 }
 .education-page-btn{
+    display: none;
     width: 200px;
     height: 63px;
     font-size: 16px;
@@ -940,9 +960,9 @@ html, body {
     #nav-bar{
         display: none;
     }
-    .menu-i   con{
-        display: block;
-    }
+    /*.menu-icon{*/
+    /*    display: block;*/
+    /*}*/
     #logo{
         width: 8vw;
         position: relative;
@@ -1036,7 +1056,7 @@ html, body {
         background-repeat: no-repeat;
     }
     .running-bar{
-        width: 100vw;
+        /*width: 100vw;*/
         height: 10vh;
         overflow: hidden;
     }

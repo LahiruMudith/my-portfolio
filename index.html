@@ -35,9 +35,9 @@
                     <a href="#home-page" class="nav-btn">Home</a>
                     <a href="#about-me-page" class="nav-btn">About Me</a>
                     <a href="#skill-page" class="nav-btn">Skills</a>
-                    <a href="#project-page" class="nav-btn">Projects</a>
-                    <a href="#assignment-page" class="nav-btn">Assignments</a>
-                    <a href="#gallery-page" class="nav-btn">Gallery</a>
+                    <a href="#project-section" class="nav-btn">Projects</a>
+<!--                    <a href="#assignment-page" class="nav-btn">Assignments</a>-->
+<!--                    <a href="#gallery-page" class="nav-btn">Gallery</a>-->
                     <a href="#contact-section" class="nav-btn">Contact me</a>
                 </nav>
                 <img src="https://img.icons8.com/plumpy/96/b4b6b7/menu--v5.png" alt="menu" class="menu-icon"/>
@@ -52,12 +52,16 @@
                         Hello im Lahiru Mudith.Student in IJSE.I craft tailored solutions for your unique needs.Let's collaborate to bring your web development vision to life!
                     </p>
                     <div id="home-page-btns">
-                        <button id="hire-me-btn">hire me <img src="assets/images/User.png" width="30px" ></button>
-                        <button id="download-btn">Download CV</button>
+                        <a href="#contact-section">
+                            <button id="hire-me-btn">hire me <img src="assets/images/User.png" width="30px" ></button>
+                        </a>
+                        <a download="Lahiru Mudith CV" href="assets/images/github.png">
+                            <button id="download-btn">Download CV</button>
+                        </a>
                     </div>
                     <div id="home-page-icons">
-                        <img src="assets/images/github.png" name="icon" alt="git hub icon">
-                        <img src="assets/images/fiverr.png" name="icon" alt="fiverr icon">
+                        <a target="_blank" href="https://github.com/LahiruMudith"><img src="assets/images/github.png" name="icon" alt="git hub icon"></a>
+                        <a target="_blank" href="https://www.fiverr.com/s/38lzj79"><img src="assets/images/fiverr.png" name="icon" alt="fiverr icon"></a>
                     </div>
                 </div>
                 <!--right side-->
@@ -68,6 +72,22 @@
 
             <!--running bar-->
             <div class="running-bar">
+                <div class="runing-item">
+                    <img src="assets/images/Star.png" alt="star" width="20px">
+                    <P>Quick Response</P>
+                </div>
+                <div class="runing-item">
+                    <img src="assets/images/Star.png" alt="star" width="20px">
+                    <p>100% Satisfaction</p>
+                </div>
+                <div class="runing-item">
+                    <img src="assets/images/Star.png" alt="star" width="20px">
+                    <P>Friendly</P>
+                </div>
+                <div class="runing-item">
+                    <img src="assets/images/Star.png" alt="star" width="20px">
+                    <p>Life Time Support</p>
+                </div>
                 <div class="runing-item">
                     <img src="assets/images/Star.png" alt="star" width="20px">
                     <P>Quick Response</P>
@@ -206,9 +226,9 @@
                         </a>
                     </div>
                 </div>
-<!--            project section    -->
             </section>
-            <section class="Am-img-slider-container">
+            <!--project section    -->
+            <section id="project-section" class="Am-img-slider-container">
                 <div class="swiper blog-slider">
                     <div class="swiper-wrapper">
                         <!-- slide -->

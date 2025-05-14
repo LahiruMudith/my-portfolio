@@ -405,6 +405,10 @@ html, body {
     }
 }
 
+#project-section{
+    padding: 10px 0;
+}
+
 .Am-img-slider-container {
     width: 100%;
     height: 300px;

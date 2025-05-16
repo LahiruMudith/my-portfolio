@@ -464,16 +464,20 @@
             <section id="contact-section">
                 <div class="contact-header">
                     <div data-aos="flip-right">
-                        <div class="contact-circle">
-                            <img src="assets/images/icon/call-me.png" alt="call me icon">
-                        </div>
-                        <a class="contact-link" href="tel:+94761298256" target="_blank">076 129 8256</a>
+                        <a class="contact-link" href="tel:+94761298256" target="_blank">
+                            <div class="contact-circle">
+                                <img src="assets/images/icon/call-me.png" alt="call me icon">
+                            </div>
+                        </a>
+                        <p>076 129 8256</p>
                     </div>
                     <div data-aos="flip-right">
-                        <div class="contact-circle">
-                            <img src="assets/images/icon/address.png" alt="address icon">
-                        </div>
-                        <p><a class="contact-link" href="https://maps.app.goo.gl/LSnJ2HyhtRSHiU3i7" target="_blank">Moronthuduwa, Sri Lanka.</a></p>
+                        <a class="contact-link" href="https://maps.app.goo.gl/AJB9jjKbvKn6xQPq8" target="_blank">
+                            <div class="contact-circle">
+                                <img src="assets/images/icon/address.png" alt="address icon">
+                            </div>
+                        </a>
+                        <p>Moronthuduwa, Sri Lanka.</p>
                     </div>
                     <div data-aos="flip-right">
                         <div class="contact-circle">
@@ -493,11 +497,11 @@
             <!--    footer section-->
             <footer id="footer">
                 <div>
-                    <a data-aos="zoom-out-up" target="_blank" href="https://www.facebook.com/share/1DKxM5JE3y/?mibextid=wwXIfr"><img class="footer-icon" src="assets/images/icon/fb.png" alt="fb logo"></a>
-                    <a data-aos="zoom-out-up" target="_blank" href="https://wa.link/109em4"><img class="footer-icon" src="assets/images/icon/whatsapp.png" alt="whatsapp logo"></a>
-                    <a data-aos="zoom-out-up" target="_blank" href="https://github.com/LahiruMudith"><img class="footer-icon" src="assets/images/icon/github.png" alt="git hub logo"></a>
-                    <a data-aos="zoom-out-up" target="_blank" href="https://www.instagram.com/lahiru_mudith_madushan?igsh=a2k3cGUyem9jaWg5&utm_source=qr"><img class="footer-icon" src="assets/images/icon/instagram-logo.png" alt="instagram logo"></a>
-                    <a data-aos="zoom-out-up" target="_blank" href="https://www.linkedin.com/in/lahiru-mudith-1226b7298/"><img class="footer-icon" src="assets/images/icon/linkedin.png" alt="linkend logo"></a>
+                    <a target="_blank" href="https://www.facebook.com/share/1DKxM5JE3y/?mibextid=wwXIfr"><img class="footer-icon" src="assets/images/icon/fb.png" alt="fb logo"></a>
+                    <a target="_blank" href="https://wa.link/109em4"><img class="footer-icon" src="assets/images/icon/whatsapp.png" alt="whatsapp logo"></a>
+                    <a target="_blank" href="https://github.com/LahiruMudith"><img class="footer-icon" src="assets/images/icon/github.png" alt="git hub logo"></a>
+                    <a target="_blank" href="https://www.instagram.com/lahiru_mudith_madushan?igsh=a2k3cGUyem9jaWg5&utm_source=qr"><img class="footer-icon" src="assets/images/icon/instagram-logo.png" alt="instagram logo"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/lahiru-mudith-1226b7298/"><img class="footer-icon" src="assets/images/icon/linkedin.png" alt="linkend logo"></a>
                 </div>
                 <label id="copyright-message">&copy; 2025 Lahiru Mudith — Designed with 💡 and coded with ❤️. All rights reserved.</label>
             </footer>

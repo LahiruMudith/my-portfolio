@@ -241,7 +241,7 @@ html, body {
 
 /*runing bar css*/
 .running-bar{
-    width: 200%;
+    width: 500%;
     height: 17vh;
     margin: 2vh 0;
     background-color: var(--main-green-color);
@@ -249,7 +249,7 @@ html, body {
     display: flex;
     justify-content: space-around;
     z-index: 1;
-    animation: scrollInfinite 50s linear infinite;
+    animation: scrollInfinite 180s linear infinite;
 }
 
 @keyframes scrollInfinite {
